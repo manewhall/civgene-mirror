@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Static Mirrors</title>
+	<atom:link href="http://civgene.matthewnewhall.com/static-mirrors/feed" rel="self" type="application/rss+xml" />
+	<link>http://civgene.matthewnewhall.com</link>
+	<description>Moving past the Warrior Gene</description>
+	<lastBuildDate>Wed, 30 Oct 2013 16:16:03 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.6.1</generator>
+	<item>
+		<title>By: Take my site, please! &#124; The Civilization Gene</title>
+		<link>http://civgene.matthewnewhall.com/static-mirrors#comment-15</link>
+		<dc:creator>Take my site, please! &#124; The Civilization Gene</dc:creator>
+		<pubDate>Wed, 30 Oct 2013 16:16:03 +0000</pubDate>
+		<guid isPermaLink="false">http://civgene.matthewnewhall.com/?page_id=298#comment-15</guid>
+		<description><![CDATA[[&#8230;] Static Mirrors [&#8230;]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] Static Mirrors [&#8230;]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

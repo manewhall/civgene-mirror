@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>The Civilization Gene &#187; science</title>
+	<atom:link href="http://civgene.matthewnewhall.com/archives/category/science/feed" rel="self" type="application/rss+xml" />
+	<link>http://civgene.matthewnewhall.com</link>
+	<description>Moving past the Warrior Gene</description>
+	<lastBuildDate>Tue, 29 Oct 2013 15:06:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.6.1</generator>
+		<item>
+		<title>Is peer review broken?</title>
+		<link>http://civgene.matthewnewhall.com/archives/286</link>
+		<comments>http://civgene.matthewnewhall.com/archives/286#comments</comments>
+		<pubDate>Tue, 29 Oct 2013 15:06:40 +0000</pubDate>
+		<dc:creator>Matthew Newhall</dc:creator>
+				<category><![CDATA[genetics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[study]]></category>
+		<category><![CDATA[trust]]></category>
+
+		<guid isPermaLink="false">http://civgene.matthewnewhall.com/?p=286</guid>
+		<description><![CDATA[http://www.latimes.com/business/la-fi-hiltzik-20131027,0,1228881.column#axzz2j2EF5bGG A straight forward article discussing the NIH funding model and the journal peer review process.  Nothing insane like a condemnation of the scientific method or something like that. It seems that scientific journals have been too profit oriented.  Of course there is a virtue to this as there is a big motive to solve [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="simplesocialbuttons">
+<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="Is peer review broken?" data-url="http://civgene.matthewnewhall.com/archives/286" rel="nofollow"></a></div>
+<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/286"></div></div>
+<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/286" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
+</div>
+<p style="text-align: center;"><a href="http://civgene.matthewnewhall.com/wp-content/uploads/2013/10/beeker.jpg"><img class="alignnone size-full wp-image-287" alt="beeker" src="http://civgene.matthewnewhall.com/wp-content/uploads/2013/10/beeker.jpg" width="300" height="230" /></a></p>
+<p><a title="http://www.latimes.com/business/la-fi-hiltzik-20131027,0,1228881.column#axzz2j2EF5bGG" href="http://www.latimes.com/business/la-fi-hiltzik-20131027,0,1228881.column#axzz2j2EF5bGG">http://www.latimes.com/business/la-fi-hiltzik-20131027,0,1228881.column#axzz2j2EF5bGG</a></p>
+<p>A straight forward article discussing the NIH funding model and the journal peer review process.  Nothing insane like a condemnation of the scientific method or something like that.</p>
+<p>It seems that scientific journals have been too profit oriented.  Of course there is a virtue to this as there is a big motive to solve societies real needs.  It fails when an intermediate problem needs to be researched or solved to get the data to solve the big problems.  Also scientists simply reading another&#8217;s article only proves something is &#8216;plausible&#8217; not necessarily true.  As science gets bigger and smaller, experiments are more costly.  That&#8217;s just life.  But often &#8216;published&#8217; is mistaken as &#8216;fact&#8217; by a great many people.</p>
+<p>Looks like things are headed in the right direction.  The push is for open source journals.  Still some rules, but much lower barriers to entry.  Open source software is the state of art peer review.  Computer science has the most successful reference model of all the sciences.  Linux.  Something to be learned there, by everyone.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://civgene.matthewnewhall.com/archives/286/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
