@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>The Civilization Gene &#187; helping out</title>
+	<atom:link href="http://civgene.matthewnewhall.com/archives/category/helping-out/feed" rel="self" type="application/rss+xml" />
+	<link>http://civgene.matthewnewhall.com</link>
+	<description>Civilization is the Logic of Compassion</description>
+	<lastBuildDate>Tue, 18 Nov 2014 16:37:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.6.1</generator>
+		<item>
+		<title>New type of mirror.  Git your copy of Civgene.</title>
+		<link>http://civgene.matthewnewhall.com/archives/670</link>
+		<comments>http://civgene.matthewnewhall.com/archives/670#comments</comments>
+		<pubDate>Tue, 18 Nov 2014 16:33:09 +0000</pubDate>
+		<dc:creator>Matthew Newhall</dc:creator>
+				<category><![CDATA[civilization gene]]></category>
+		<category><![CDATA[helping out]]></category>
+		<category><![CDATA[shameless self promotion]]></category>
+		<category><![CDATA[website]]></category>
+
+		<guid isPermaLink="false">http://civgene.matthewnewhall.com/?p=670</guid>
+		<description><![CDATA[Been thinking about how to make the mirroring process easier.   Why not a git repository.  Now you can mirror one small change at a time. You can simply grab a static copy of the whole site as it stands with a git clone https://github.com/MANewhall/civgene-mirror Then run a &#8216;git pull&#8216; daily to pick up what ever [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p style="text-align: center;"><a href="http://civgene.matthewnewhall.com/wp-content/uploads/2014/11/some-reading.jpg"><img class="alignnone size-medium wp-image-671" alt="some-reading" src="http://civgene.matthewnewhall.com/wp-content/uploads/2014/11/some-reading-300x194.jpg" width="300" height="194" /></a></p>
+<p>Been thinking about how to make the <a title="Static Mirrors" href="http://civgene.matthewnewhall.com/static-mirrors">mirroring process</a> easier.   Why not a git repository.  Now you can mirror one small change at a time.</p>
+<p>You can simply grab a static copy of the whole site as it stands with a</p>
+<p><em>git clone https://github.com/MANewhall/civgene-mirror</em></p>
+<p>Then run a &#8216;<em>git pull</em>&#8216; daily to pick up what ever has changed.</p>
+<p>Doesn&#8217;t get easier than that.  <img src='http://civgene.matthewnewhall.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>If you prefer go ahead and download the site and view it locally.  There is little <a title="Creative commons licence." href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US">non-commercial restriction on use.</a>  Go ahead and enjoy.</p>
+<p>Thank you so much for your help.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://civgene.matthewnewhall.com/archives/670/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
