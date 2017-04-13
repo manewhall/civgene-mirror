@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>The Civilization Gene &#187; democracy</title>
+	<atom:link href="http://civgene.matthewnewhall.com/archives/category/government/democracy/feed" rel="self" type="application/rss+xml" />
+	<link>http://civgene.matthewnewhall.com</link>
+	<description>Civilization is the Logic of Compassion</description>
+	<lastBuildDate>Fri, 27 Jan 2017 16:06:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.6.1</generator>
+		<item>
+		<title>The end of all republics</title>
+		<link>http://civgene.matthewnewhall.com/archives/1359</link>
+		<comments>http://civgene.matthewnewhall.com/archives/1359#comments</comments>
+		<pubDate>Tue, 13 Dec 2016 05:06:57 +0000</pubDate>
+		<dc:creator>Matthew Newhall</dc:creator>
+				<category><![CDATA[computer science]]></category>
+		<category><![CDATA[currency]]></category>
+		<category><![CDATA[defense against a psychopath]]></category>
+		<category><![CDATA[defense against psychopaths]]></category>
+		<category><![CDATA[democracy]]></category>
+		<category><![CDATA[EMPATHS]]></category>
+		<category><![CDATA[GOVERNMENT]]></category>
+		<category><![CDATA[Law Enforcement]]></category>
+		<category><![CDATA[Legal Distribution]]></category>
+		<category><![CDATA[monarchy]]></category>
+		<category><![CDATA[natural law]]></category>
+		<category><![CDATA[proto-psychopaths]]></category>
+		<category><![CDATA[PSYCHOPATHS]]></category>
+		<category><![CDATA[republic]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[SOCIETY]]></category>
+		<category><![CDATA[spies]]></category>
+		<category><![CDATA[Type One Civilization]]></category>
+
+		<guid isPermaLink="false">http://civgene.matthewnewhall.com/?p=1359</guid>
+		<description><![CDATA[The words are hard to find when discussing the chaos in the 2016 presidential election in the psychopath trap known as the United States government.  People, even both parties subconsciously captive proto-psychopaths, realize that something huge has happened, even if they can&#8217;t determine what.  I think I&#8217;ve sorted it out. I noticed that cyber-security specialists, [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="simplesocialbuttons">
+<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/1359"></div></div>
+<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/1359" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
+<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="The end of all republics" data-url="http://civgene.matthewnewhall.com/archives/1359" rel="nofollow"></a></div>
+</div>
+<p><a href="http://civgene.matthewnewhall.com/wp-content/uploads/2016/12/there.jpeg"><img class="size-medium wp-image-1361 alignleft" alt="there" src="http://civgene.matthewnewhall.com/wp-content/uploads/2016/12/there.jpeg" width="273" height="185" /></a><a href="http://civgene.matthewnewhall.com/wp-content/uploads/2016/12/gone.jpg"><img class="alignnone size-medium wp-image-1360" alt="gone" src="http://civgene.matthewnewhall.com/wp-content/uploads/2016/12/gone-300x205.jpg" width="300" height="205" /></a></p>
+<p>The words are hard to find when discussing the chaos in the 2016 presidential election in the <a title="Is the United States government a psychopath trap?" href="http://civgene.matthewnewhall.com/archives/132" target="_blank">psychopath trap</a> known as the United States government.  People, even both parties subconsciously captive <a title="Is conspiracy theory useful?" href="http://civgene.matthewnewhall.com/archives/1297" target="_blank">proto-psychopaths</a>, realize that something huge has happened, even if they can&#8217;t determine what.  I think I&#8217;ve sorted it out.</p>
+<p>I noticed that cyber-security specialists, for the moment, seem to fall almost completely on the statist point on the political compass.  People of all political affiliations group around a single point of view.  That cryptographicly signed, leaked emails, must be ignored.  A point a view that without it&#8217;s massive scope and current context would ever have been proffered by even a significant minority of them a mere six months ago.  Today It dawned on my rickety brain why.  They are fighting the leading edge of a trend that changes their career path.  Facing their own obsolescence.</p>
+<p>I am not talking about the cyber security analyst at large trying to harden network structures against attack and limit damage when that fails.  I&#8217;m talking specifically about internet based evidence gatherers.  Internet cops.  Specialists of formal investigation and the resulting digital custody chains.  In one long mathematically indisputable batch of emails the ability of LEOs to have any effect, or to be effective, died.</p>
+<h3>The robots are coming and they are from Wikileaks.</h3>
+<p>Lets talk some math.  DKIM is a method of signing an email.  The entire thing including the header (sender, postmark and return address).   Some of the wikileaks emails are signed by Gmail with 2048 bit encryption.  Odds that the 2048 bit DKIM encryption signed emails have been altered is roughly 1 in 64 trillion.  This may just seem like a really big number to you until you realize this number represents the biggest number of any evidence chain.  The BEST case (the best tests and samples) for DNA being incorrect is 1 in 20 billion.  Usually it&#8217;s more like 1 in 10 million with more realistic samples, genetic target and affordable testing.  Forget the physical evidence point of view.  With a fatal car accident every hour in the United States (for example) there is a 1 in 300 million chance any particular physical sample is corrupted after being onboard during a fatal car crash.</p>
+<p>Why does this matter?  Because the most reliable method of written evidence delivery, can now be sent from a random, anonymous, source on the Internet.  Police, even international spies, need not apply.  In addition, a corrupt government can no longer forge statistically significant contrary evidence in defense of a corrupt government.</p>
+<p>The technology is now proven that it is no longer in the the interest of people to hire expensive, flawed LEOs, but instead insist that their governments just use DKIM for all digital communications.  Chain of custody included.  Cybersecurity custody professionals, perhaps subconsciously, have been protecting their own employment prospects from the <a title="Civgene presents simple effective solutions to AI" href="http://civgene.matthewnewhall.com/archives/1197" target="_blank">automation wave</a>.</p>
+<h3>So when do all the republics die?</h3>
+<p>If citizens had correct conceptual understanding of their own societies, that would probably NOT happen.  Unfortunately that is not the case.  Several theories about psychopaths have become part or near fact since the 1970s, coming as close as psychology ever does to hard science.   They are largely considered to be 1-3% of the population, are attracted to wealth and power, are both ruthless and incurable, and are the highest functioning mental illness.  Simply put they are attracted to corrupt opportunities of government power in the psychopath trap.  They become gridlocked in that trap as career politicians, winning small victories while calculating risks from many blackmails from their peers.  It&#8217;s dirty, and ruthless, and law is created and enforced like sausage is made.  In unappetizing fashion.</p>
+<p>In a world where psychopaths are fact, if you are foolish enough to think you have a &#8216;team&#8217; in this fight, you probably have no idea how it works.</p>
+<p>When countries, outsider candidates or even random citizens can introduce evidence with a better chain of custody than even the very best evidence the police for a country can produce, it throws the psychopath trap in disarray.  Despicably maintained but carefully balanced power, suddenly shifts as LEOs suddenly pull cornerstones from their mooring.  This, sometimes, is why they protest enforcing the law.  Like pulling a rotten tooth from the mouth, it&#8217;s a grotesque and unnerving, if necessary job.</p>
+<p>It is entirely possible that a political and psychopathic union may form during lulls in evidentiary activity.  If enough time passes without a leak or a whistleblower, they may temporarily stabilize key support and convert the republic into some variation of dictatorship.  This is where enlightened countries may be entirely lost to tyranny.  This is where stupid psychopaths below the top rung do anything to save their own skin.  There is justice among the horror as it won&#8217;t work for most.</p>
+<p>Now that this technology exists (it need never be &#8216;approved&#8217; to be effective) and the purge has begun, it is in the interest of insiders, even the dirtiest psychopaths, to both flee and keep the signed leaks coming.  This is the signal that the trio of psychopath choice (double down, defect and die) only has one option left, defect.  This is because dictatorships have far fewer key supporters, so most key political positions will be eliminated.  With the leading indications of their internal enforcement methods coming to light, it&#8217;s clear that many if not all key supporters will be hunted and/or executed if they do not qualify for the short list of required keys.  Psychopaths don&#8217;t do self sacrifice.  He who panics first, panics best.  A person with an uncaptured built in risk engine (the conscience) would know that.  The smartest psychopaths should keep council with them.</p>
+<p>Republics that proffer law and order without at least a superior custodial track for cryptographically signed communications will be known as democratic in name only.  A rapidly fading role awaits them on the global stage.</p>
+<h3>The republic reborn</h3>
+<p>If you are lucky enough to live in one of the republics that remains representative during this process, what will you be given?   A technocratic republic for sure.  One where hierarchy is not just casually but formally mistrusted.  Where communications from officials in office are mandated to DKIM verification.  A system where <a title="How does legal distribution work?" href="http://civgene.matthewnewhall.com/archives/1042" target="_blank">legal distribution</a> looms over the would be corrupt secret deals in all new law.  A place where voters would vote using the spoiler and gerrymandering free approval voting on a blockchain, verifiable from anywhere by private key, but who&#8217;s anonymity would be protected by both technology and law.  A system where <a title="Who is in contol?  Banking vs new technology" href="http://civgene.matthewnewhall.com/archives/1131" target="_blank">debt is allowed</a> but all currency and money is free in return.  A system where free trade could never include cessation of human rights in the trade.  A system where a <a title="Type One Civilization" href="http://civgene.matthewnewhall.com/papers/Type-one.html" target="_blank">type one civilization</a> may finally be possible.</p>
+<p>Until then it&#8217;s simply an ugly waiting game.  Patience, luck and work.  A slow motion mudslide pushing away establishment key supporters.  Until the first time hidden allies don&#8217;t scurry away when a stone is moved.  Blackmail interlock cascade exhaustion.  People will say, &#8216;lets see what went wrong&#8217;, but it&#8217;s already obvious.  Secret alliances plotting against the public at large.  In a word, corruption, intentionally placed in places the public can&#8217;t reach it.  Placed by people, often psychopaths and their minions, who took advantage of a system that while sceptical was not sceptical enough.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://civgene.matthewnewhall.com/archives/1359/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Alliancism</title>
+		<link>http://civgene.matthewnewhall.com/archives/1261</link>
+		<comments>http://civgene.matthewnewhall.com/archives/1261#comments</comments>
+		<pubDate>Wed, 04 May 2016 22:35:33 +0000</pubDate>
+		<dc:creator>Matthew Newhall</dc:creator>
+				<category><![CDATA[Alliancism]]></category>
+		<category><![CDATA[capitalism]]></category>
+		<category><![CDATA[collapse]]></category>
+		<category><![CDATA[communism]]></category>
+		<category><![CDATA[conscience]]></category>
+		<category><![CDATA[currency]]></category>
+		<category><![CDATA[defense against psychopaths]]></category>
+		<category><![CDATA[democracy]]></category>
+		<category><![CDATA[economics]]></category>
+		<category><![CDATA[economy of scale]]></category>
+		<category><![CDATA[faith]]></category>
+		<category><![CDATA[GOVERNMENT]]></category>
+		<category><![CDATA[investment]]></category>
+		<category><![CDATA[money]]></category>
+		<category><![CDATA[property]]></category>
+		<category><![CDATA[republic]]></category>
+		<category><![CDATA[socialism]]></category>
+		<category><![CDATA[trust]]></category>
+
+		<guid isPermaLink="false">http://civgene.matthewnewhall.com/?p=1261</guid>
+		<description><![CDATA[There is a problem with political progress today.  There is no word but fascism to describe a  change of government into a system of always putting subsidies for corporate profit ahead of freedoms, markets, or property, controlled by one person.  A trivial point, an oligarchy as the fascist is possible here too.  While the properties [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="simplesocialbuttons">
+<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/1261"></div></div>
+<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/1261" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
+<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="Alliancism" data-url="http://civgene.matthewnewhall.com/archives/1261" rel="nofollow"></a></div>
+</div>
+<p><a href="http://civgene.matthewnewhall.com/wp-content/uploads/2016/05/choice.jpg"><img class="size-medium wp-image-1263 aligncenter" alt="choice" src="http://civgene.matthewnewhall.com/wp-content/uploads/2016/05/choice-254x300.jpg" width="254" height="300" /></a></p>
+<p>There is a problem with political progress today.  There is no word but fascism to describe a  change of government into a system of always putting subsidies for corporate profit ahead of freedoms, markets, or property, controlled by one person.  A trivial point, an oligarchy as the fascist is possible here too.  While the properties of fascism appear on a regular but limited basis, it&#8217;s absolute properties (absolute control) may not be present.  The transition can take place at any speed. <strong> Freedoms can be lost for temporary profit, one freedom at a time.</strong></p>
+<p>Alliancism to fascism is much like socialism to <a href="http://civgene.matthewnewhall.com/archives/782">communism</a>.   In small doses both can have good short term consequences, but only for a temporary period of time.  Bringing in fractional banking in where there was none before, but cannibalizing the money supply to do it.  Growing economy of scale by ending trade disputes via hard power and eroding citizen rights to reach that goal.  Masking the tragedy of the commons with consumerism and gentrification.  Incrementally replacing debate with marketing, public relations and ultimately propaganda.   Replacing war with police action (conquest by peace).   Meant as a staged scale like socialism, alliancism is a partial implementation of fascism in a capitalist democracy (including republics) as <a title="http://civgene.matthewnewhall.com/archives/1131" href="http://civgene.matthewnewhall.com/archives/1131">it transitions</a> between the optimal psychopathic cooperative (rights AND shortcuts) to rapid simplification and localization.  Ultimately, collapse.</p>
+<p>I&#8217;m naming it after <a href="http://civgene.matthewnewhall.com/archives/745">the alliance</a>.  The closest relationship a person without a conscience (a psychopath) can have to a friendship.  Temporary and transitory in nature alliances can only exist while at each party thinks they are using the other to their ultimate advantage.  Where fascism immediately assumes all rights to it&#8217;s leader class, alliancism can erode rights one at a time.  Cashing in freedoms for temporary pricing advantages via market distortions.   This continues until the faith in currency and property are lost, and trust and investment ceases.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://civgene.matthewnewhall.com/archives/1261/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Economics of complexity</title>
+		<link>http://civgene.matthewnewhall.com/archives/1213</link>
+		<comments>http://civgene.matthewnewhall.com/archives/1213#comments</comments>
+		<pubDate>Mon, 28 Mar 2016 02:47:04 +0000</pubDate>
+		<dc:creator>Matthew Newhall</dc:creator>
+				<category><![CDATA[capitalism]]></category>
+		<category><![CDATA[civilization gene]]></category>
+		<category><![CDATA[collapse]]></category>
+		<category><![CDATA[defense against psychopaths]]></category>
+		<category><![CDATA[democracy]]></category>
+		<category><![CDATA[Distribution Party]]></category>
+		<category><![CDATA[economics]]></category>
+		<category><![CDATA[economy of scale]]></category>
+		<category><![CDATA[faith]]></category>
+		<category><![CDATA[GOVERNMENT]]></category>
+		<category><![CDATA[legal complexity]]></category>
+		<category><![CDATA[Legal Distribution]]></category>
+		<category><![CDATA[logic]]></category>
+		<category><![CDATA[metamind]]></category>
+		<category><![CDATA[PSYCHOPATHS]]></category>
+		<category><![CDATA[reason]]></category>
+		<category><![CDATA[republic]]></category>
+		<category><![CDATA[self limiting]]></category>
+		<category><![CDATA[SOCIETY]]></category>
+		<category><![CDATA[sociopath]]></category>
+
+		<guid isPermaLink="false">http://civgene.matthewnewhall.com/?p=1213</guid>
+		<description><![CDATA[&#8220;The chief cause of problems is solutions.&#8221;  &#8211;Eric Svareid (shamelessly stolen) &#8220;The general who advances without coveting fame and retreats without fearing disgrace, whose only thought is to protect his country and do good service for his sovereign, is the jewel of the kingdom.&#8221; &#8211;Sun Tzu Looking at the world through a caloric lens, complexity [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="simplesocialbuttons">
+<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/1213"></div></div>
+<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/1213" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
+<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="Economics of complexity" data-url="http://civgene.matthewnewhall.com/archives/1213" rel="nofollow"></a></div>
+</div>
+<p><a href="http://civgene.matthewnewhall.com/wp-content/uploads/2016/03/legal-complexity.jpg"><img class="size-medium wp-image-1215 aligncenter" alt="legal-complexity" src="http://civgene.matthewnewhall.com/wp-content/uploads/2016/03/legal-complexity-300x233.jpg" width="300" height="233" /></a></p>
+<p>&#8220;The chief cause of problems is solutions.&#8221;  &#8211;Eric Svareid<br />
+<span style="color: #999999;"><em>(shamelessly stolen)</em></span></p>
+<p>&#8220;<strong>The general who</strong> advances without coveting fame and <strong>retreats without fearing disgrace</strong>, whose only thought is to protect his country and do good service for his sovereign, <strong>is the jewel of the kingdom.</strong>&#8221; &#8211;Sun Tzu</p>
+<p>Looking at the world through a caloric lens, complexity increases economic cost.  To further explore this please see this talk by Dr. Joseph Tainter.  Please keep the volume control handy as there are audio anomalies.  It is long but well worth your time.</p>
+<p><iframe width="625" height="352" src="https://www.youtube.com/embed/G0R09YzyuCI?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>This is important because it deals with what collapse looks like.  Rome didn&#8217;t collapse as some sort of surprise or in a vacuum.  It suffered from growing and unsustainable complexity.  Civgene can provide the &#8216;why&#8217; for this problem.  Why did complexity occur?  The most obvious answer is corruption.  Why does corruption continuously increase?  Civgene indicates increasing proportions of psychopaths.  Rent seeking correlates to a genetic pool that grows over the life of a civilization and then collapses once that civilization dies.</p>
+<p>As corruption increases complexity, economy of scale multipliers provide diminishing returns.  Further as rent seeker revenues fall, they add complexity simply for the sole purpose of seeking additional loopholes to graft from.  The only mechanism for ending corruption created by adding complexity is adding yet more complexity in the form of additional laws.</p>
+<p>If you are familiar with <a title="http://civgene.matthewnewhall.com/archives/category/psychopaths/defense-against-psychopaths/type-one-civilization/legal-distribution" href="http://civgene.matthewnewhall.com/archives/category/psychopaths/defense-against-psychopaths/type-one-civilization/legal-distribution">legal distribution</a> you can see where this is going.  <strong>There needs to be a way to reduce this complexity to spare limited resources.  No historical law making process can provide this.</strong>  The video lays out the need for a new kind of legal mechanism, to cope with the real problem behind complexity.</p>
+<p>A growing pool of rent seekers grafted onto the core of the system.  The law making rent seekers find marginal problems to combat in public, while their real goal is to seek new revenue from the hidden effects and loopholes of the new law.   Instead we should reduce complexity by distributing laws.  This should create competition for programs that have grown pointlessly bloated solving small scale locally addressable problems.  Naturally reducing the jurisdiction of laws should be under a populist control, since the vast majority of the population are still good economic actors, with the desire to protect the system from the graft at the center in a selfless way.  So while overall &#8220;the process of increasing complexity is inexorable&#8221;, we don&#8217;t need to make things more complex than necessary for the time.</p>
+<p>Dr. Tainter calls political ideology a <a href="http://civgene.matthewnewhall.com/archives/1054">faith</a>. He is correct!  All politics are based at least in part on faith, because testing political theories on humans is impossible (without an epic immoral cost).  Faiths are critical to <a href="http://civgene.matthewnewhall.com/archives/578">reason</a> and therefore civilization, but without recognition of the risks of cult that faith brings, they are simply a collar to click a leash onto.</p>
+<p>He does equate logic to ethics saying &#8220;Everything the Roman emperors did was a logical response to circumstances.&#8221;  While explicitly true this is not complete.  This again proves logic is NOT a panacea.  <a href="http://civgene.matthewnewhall.com/papers/Psychopath-labels.html">Sociopath stage psychopaths</a> are perfectly logical, to their own needs.  Markets need to be protected to provide good data to build sound logic on.  Reason (the logical mind + the <a href="http://civgene.matthewnewhall.com/papers/Metamind.html">metamind</a>) is available reliably only from the public, away from the center of power.  The public and their subconscious risk management are needed to keep destructive needless complexity from harming those markets.  Logic and subsequently reason can&#8217;t accomplish good law without good data.  Unchecked, complexity and graft slowly <a href="http://civgene.matthewnewhall.com/archives/1131">smothers true cost.</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://civgene.matthewnewhall.com/archives/1213/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
