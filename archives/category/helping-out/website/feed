@@ -13,11 +13,50 @@
 	<atom:link href="http://civgene.matthewnewhall.com/archives/category/helping-out/website/feed" rel="self" type="application/rss+xml" />
 	<link>http://civgene.matthewnewhall.com</link>
 	<description>Civilization is the Logic of Compassion</description>
-	<lastBuildDate>Thu, 11 Jun 2015 02:13:20 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 27 Jan 2017 16:06:49 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.6.1</generator>
+		<item>
+		<title>Interesting technical challenges</title>
+		<link>http://civgene.matthewnewhall.com/archives/1191</link>
+		<comments>http://civgene.matthewnewhall.com/archives/1191#comments</comments>
+		<pubDate>Wed, 16 Mar 2016 15:07:28 +0000</pubDate>
+		<dc:creator>Matthew Newhall</dc:creator>
+				<category><![CDATA[HELPING OUT]]></category>
+		<category><![CDATA[shameless self promotion]]></category>
+		<category><![CDATA[website]]></category>
+
+		<guid isPermaLink="false">http://civgene.matthewnewhall.com/?p=1191</guid>
+		<description><![CDATA[Please don&#8217;t panic, civgene is having no technical problems whatsoever. OK that was a lie.  It was up and down for a couple of weeks but now it&#8217;s back up and stronger in security redundancy resilience speed Specifically in mirroring dns backups web email This was not part of the plan, but that&#8217;s not to [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="simplesocialbuttons">
+<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/1191"></div></div>
+<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/1191" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
+<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="Interesting technical challenges" data-url="http://civgene.matthewnewhall.com/archives/1191" rel="nofollow"></a></div>
+</div>
+<p><a href="http://civgene.matthewnewhall.com/wp-content/uploads/2016/03/coincidence.jpg"><img class="size-medium wp-image-1192 aligncenter" alt="coincidence" src="http://civgene.matthewnewhall.com/wp-content/uploads/2016/03/coincidence-300x147.jpg" width="300" height="147" /></a></p>
+<p>Please don&#8217;t panic, civgene is having no technical problems whatsoever.</p>
+<p>OK that was a lie.  It was up and down for a couple of weeks but now it&#8217;s back up and stronger in</p>
+<ul>
+<li>security</li>
+<li>redundancy</li>
+<li>resilience</li>
+<li>speed</li>
+</ul>
+<p>Specifically in</p>
+<ul>
+<li>mirroring</li>
+<li>dns</li>
+<li>backups</li>
+<li>web</li>
+<li>email</li>
+</ul>
+<p>This was not part of the plan, but that&#8217;s not to say it&#8217;s not better for it.   Civgene is now truly redundant.  Please consider becoming a <a title="Static Mirrors" href="http://civgene.matthewnewhall.com/static-mirrors">mirror</a> and bringing the site closer to becoming independently anti-fragile.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://civgene.matthewnewhall.com/archives/1191/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 		<item>
 		<title>New type of mirror.  Git your copy of Civgene.</title>
 		<link>http://civgene.matthewnewhall.com/archives/670</link>
@@ -321,30 +360,6 @@ Of course this changed as psychoanalysis progressed and grew.  Modern psycholog
 <p>Thanks for reading!  Thanks for linking!  Thanks for mirroring!</p>
 ]]></content:encoded>
 			<wfw:commentRss>http://civgene.matthewnewhall.com/archives/301/feed</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>New FAQ section</title>
-		<link>http://civgene.matthewnewhall.com/archives/243</link>
-		<comments>http://civgene.matthewnewhall.com/archives/243#comments</comments>
-		<pubDate>Mon, 21 Oct 2013 15:52:59 +0000</pubDate>
-		<dc:creator>Matthew Newhall</dc:creator>
-				<category><![CDATA[shameless self promotion]]></category>
-		<category><![CDATA[website]]></category>
-
-		<guid isPermaLink="false">http://civgene.matthewnewhall.com/?p=243</guid>
-		<description><![CDATA[Added an FAQ page. Set up a new email address.  You can reach me at comments@civgene.matthewnewhall.com &#160;]]></description>
-				<content:encoded><![CDATA[<div class="simplesocialbuttons">
-<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/243"></div></div>
-<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/243" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
-<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="New FAQ section" data-url="http://civgene.matthewnewhall.com/archives/243" rel="nofollow"></a></div>
-</div>
-<p style="text-align: center;"><strong><a href="http://civgene.matthewnewhall.com/wp-content/uploads/2013/10/huh.png"><img class="alignnone size-medium wp-image-245" alt="huh" src="http://civgene.matthewnewhall.com/wp-content/uploads/2013/10/huh-300x290.png" width="300" height="290" /></a></strong></p>
-<p style="text-align: center;">Added an <a title="Frequently Asked Questions" href="http://civgene.matthewnewhall.com/?page_id=238">FAQ</a> page.</p>
-<p style="text-align: center;">Set up a new email address.  You can reach me at <a title="comments@civgene.matthewnewhall.com" href="mailto:comments@civgene.matthewnewhall.com">comments@civgene.matthewnewhall.com</a></p>
-<p>&nbsp;</p>
-]]></content:encoded>
-			<wfw:commentRss>http://civgene.matthewnewhall.com/archives/243/feed</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>

@@ -13,7 +13,7 @@
 	<atom:link href="http://civgene.matthewnewhall.com/archives/tag/conspiracy-theory-2/feed" rel="self" type="application/rss+xml" />
 	<link>http://civgene.matthewnewhall.com</link>
 	<description>Civilization is the Logic of Compassion</description>
-	<lastBuildDate>Sun, 26 Oct 2014 13:38:29 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 27 Jan 2017 16:06:49 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -25,17 +25,16 @@
 		<pubDate>Sun, 26 Oct 2014 13:38:29 +0000</pubDate>
 		<dc:creator>Matthew Newhall</dc:creator>
 				<category><![CDATA[conscience]]></category>
-		<category><![CDATA[Conspiracy theory]]></category>
+		<category><![CDATA[conspiracy theory]]></category>
 		<category><![CDATA[counter-culture]]></category>
 		<category><![CDATA[defense against psychopaths]]></category>
 		<category><![CDATA[know yourself]]></category>
 		<category><![CDATA[metamind]]></category>
 		<category><![CDATA[propaganda]]></category>
-		<category><![CDATA[psychology]]></category>
+		<category><![CDATA[PSYCHOLOGY]]></category>
 		<category><![CDATA[spies]]></category>
 		<category><![CDATA[subconscious]]></category>
 		<category><![CDATA[trust]]></category>
-		<category><![CDATA[conspiracy theory]]></category>
 
 		<guid isPermaLink="false">http://civgene.matthewnewhall.com/?p=659</guid>
 		<description><![CDATA[  It&#8217;s healthy to partake in conspiracy theory, provided you don&#8217;t believe it until sufficient facts back it up. You could gain a new understanding of the world. You can better understand people who believe the conspiracy theory. Conspiracy theory is a variation of the hunch.  Hunches are at the core of all good police [&#8230;]]]></description>
@@ -57,7 +56,7 @@
 </div>
 ]]></content:encoded>
 			<wfw:commentRss>http://civgene.matthewnewhall.com/archives/659/feed</wfw:commentRss>
-		<slash:comments>0</slash:comments>
+		<slash:comments>1</slash:comments>
 		</item>
 	</channel>
 </rss>
