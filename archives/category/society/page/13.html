@@ -19,12 +19,77 @@
 <![endif]-->
 
 <!-- All in One SEO Pack 2.3.12.2.1 by Michael Torbert of Semper Fi Web Design[300,348] -->
+<link rel="author" href="http://civgene" />
 <meta name="robots" content="noindex,follow" />
 <link rel='prev' href='12.html' />
 <link rel='next' href='14.html' />
 
 <link rel="canonical" href="13.html" />
-<!-- /all in one seo pack -->
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-60178840-1', 'auto');
+			
+			ga('send', 'pageview');
+			</script>
+					<script type="text/javascript">
+						function recordOutboundLink(link, category, action) {
+														ga('send', 'event', category, action);
+														if (link.target == '_blank') return true;
+							setTimeout('document.location = "' + link.href + '"', 100);
+							return false;
+						}
+						/* use regular Javascript for this */
+						function getAttr(ele, attr) {
+							var result = (ele.getAttribute && ele.getAttribute(attr)) || null;
+							if (!result) {
+								var attrs = ele.attributes;
+								var length = attrs.length;
+								for (var i = 0; i < length; i++)
+									if (attr[i].nodeName === attr) result = attr[i].nodeValue;
+							}
+							return result;
+						}
+
+						function aiosp_addLoadEvent(func) {
+							var oldonload = window.onload;
+							if (typeof window.onload != 'function') {
+								window.onload = func;
+							} else {
+								window.onload = function () {
+									if (oldonload) {
+										oldonload();
+									}
+									func();
+								}
+							}
+						}
+
+						function aiosp_addEvent(element, evnt, funct) {
+							if (element.attachEvent)
+								return element.attachEvent('on' + evnt, funct);
+							else
+								return element.addEventListener(evnt, funct, false);
+						}
+
+						aiosp_addLoadEvent(function () {
+							var links = document.getElementsByTagName('a');
+							for (var x = 0; x < links.length; x++) {
+								if (typeof links[x] == 'undefined') continue;
+								aiosp_addEvent(links[x], 'onclick', function () {
+									var mydomain = new RegExp(document.domain, 'i');
+									href = getAttr(this, 'href');
+									if (href && href.toLowerCase().indexOf('http') === 0 && !mydomain.test(href)) {
+										recordOutboundLink(this, 'Outbound Links', href);
+									}
+								});
+							}
+						});
+					</script>
+					<!-- /all in one seo pack -->
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Feed" href="../../../../feed.html" />
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Comments Feed" href="../../../../comments/feed.html" />
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; SOCIETY Category Feed" href="../feed.html" />
@@ -33,6 +98,9 @@
 <!--[if lt IE 9]>
 <link rel='stylesheet' id='twentytwelve-ie-css'  href='http://civgene.matthewnewhall.com/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
 <![endif]-->
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='../../../../wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js%3Fver=1.6.1'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../xmlrpc.php%3Frsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://civgene.matthewnewhall.com/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 3.6.1" />
@@ -49,7 +117,20 @@
 </style>
 <!-- End of Simple Social Buttons -->
 
-	<style type="text/css" id="twentytwelve-header-css">
+
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script data-cfasync="false" type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	dataLayer.push({"pagePostType":"post","pagePostType2":"category-post","pageCategory":["capitalism","conscience","counter-culture","psychology","psychopaths","society","subconscious","trust"]});
+</script>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KKC6N3B');</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by DuracellTomi -->	<style type="text/css" id="twentytwelve-header-css">
 			.site-header h1 a,
 		.site-header h2 {
 			color: #474747;
@@ -60,7 +141,11 @@ body.custom-background { background-color: #e6e6e6; }
 </style>
 </head> <!-- place holder for optional banner ad --> <div align=center><FONT color=#FF0000 size=5>Static  Mirror</FONT> of <a href="http://civgene.matthewnewhall.com/">http://civgene.matthewnewhall.com/</a></div>
 
-<body class="archive paged category category-society category-5 custom-background paged-13 category-paged-13 custom-font-enabled single-author">
+<body class="archive paged category category-society category-5 custom-background paged-13 category-paged-13 custom-font-enabled single-author ">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-KKC6N3B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><br style="display:none;">
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
@@ -86,6 +171,33 @@ body.custom-background { background-color: #e6e6e6; }
 						</header><!-- .archive-header -->
 
 			
+	<article id="post-284" class="post-284 post type-post status-publish format-standard hentry category-capitalism category-conscience category-counter-culture category-psychology category-psychopaths category-society category-subconscious category-trust">
+				<header class="entry-header">
+									<h1 class="entry-title">
+				<a href="../../../../index.html%3Fp=284.html" rel="bookmark">Jon Ronson TED talk</a>
+			</h1>
+										<div class="comments-link">
+					<a href="../../../../index.html%3Fp=284.html#respond" title="Comment on Jon Ronson TED talk"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<div class="simplesocialbuttons">
+<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/284"></div></div>
+<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/284" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
+<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="Jon Ronson TED talk" data-url="http://civgene.matthewnewhall.com/archives/284" rel="nofollow"></a></div>
+</div>
+<p><iframe width="625" height="352" src="http://www.youtube.com/embed/xYemnKEKx0c?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>This one starts off slow, but some interesting points.  Jon Ronson decided to read the DSM manual.  Starting him off on a quest to determine if psychology is even real.</p>
+<p>Guess were he ended up?   Studying psychopaths.  Hmmm.</p>
+<p>I&#8217;ll let you enjoy the video and come to your conclusions after I make two points.  I poked around a bit and it seems the Hare does not offer a psychopath spotting course to the public at the moment.  Too bad.  It is possible to be self taught.  If you have a psychopath in your life and follow all the steps in my &#8216;<a title="Help!  There is a psychopath in my life." href="../../../../index.html%3Fp=42.html">help</a>&#8216; post you will get better at spotting them.</p>
+<p>He points out that we are all a little psychopathic.  100% true.  We can do all the things they can do, including the horrible things.  But we are bigger than that, figuratively and literally.<br />
+Again, thanks for the videos.  More please!  <a title="blog email." href="mailto:comments@civgene.matthewnewhall.com">comments@civgene.matthewnewhall.com</a></p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="../../government/capitalism/index.html" title="View all posts in capitalism" rel="category tag">capitalism</a>, <a href="../../empaths/metamind/conscience/index.html" title="View all posts in conscience" rel="category tag">conscience</a>, <a href="../counter-culture/index.html" title="View all posts in counter-culture" rel="category tag">counter-culture</a>, <a href="../../psychology/index.html" title="View all posts in PSYCHOLOGY" rel="category tag">PSYCHOLOGY</a>, <a href="../../psychopaths/index.html" title="View all posts in PSYCHOPATHS" rel="category tag">PSYCHOPATHS</a>, <a href="../index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a>, <a href="../../empaths/metamind/subconscious/index.html" title="View all posts in subconscious" rel="category tag">subconscious</a>, <a href="../../empaths/trust/index.html" title="View all posts in trust" rel="category tag">trust</a> on <a href="../../../../index.html%3Fp=284.html" title="5:21 pm" rel="bookmark"><time class="entry-date" datetime="2013-10-28T17:21:25+00:00">October 28, 2013</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../../../author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
 	<article id="post-276" class="post-276 post type-post status-publish format-standard hentry category-childhood category-conscience category-defense-against-psychopaths category-empaths category-intelligence category-metamind category-society category-subconscious tag-defense-against-psychopaths tag-intelligence">
 				<header class="entry-header">
 									<h1 class="entry-title">
@@ -307,33 +419,6 @@ This is a nice advantage.  If someone calls you &#8216;stupid&#8217;, true or n
 		
 		<footer class="entry-meta">
 			This entry was posted in <a href="../../empaths/economics/collapse/index.html" title="View all posts in collapse" rel="category tag">collapse</a>, <a href="../../empaths/metamind/conscience/index.html" title="View all posts in conscience" rel="category tag">conscience</a>, <a href="../../psychopaths/defense-against-psychopaths/index.html" title="View all posts in defense against psychopaths" rel="category tag">defense against psychopaths</a>, <a href="../../empaths/economics/index.html" title="View all posts in economics" rel="category tag">economics</a>, <a href="../science/genetics/index.html" title="View all posts in genetics" rel="category tag">genetics</a>, <a href="../../empaths/economics/investment/index.html" title="View all posts in investment" rel="category tag">investment</a>, <a href="../../empaths/metamind/index.html" title="View all posts in metamind" rel="category tag">metamind</a>, <a href="../../government/nuclear-power/index.html" title="View all posts in nuclear power" rel="category tag">nuclear power</a>, <a href="../../psychopaths/index.html" title="View all posts in PSYCHOPATHS" rel="category tag">PSYCHOPATHS</a>, <a href="../index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a>, <a href="../../psychopaths/sociopath/index.html" title="View all posts in sociopath" rel="category tag">sociopath</a>, <a href="../../psychopaths/sponsored-sociopathy/index.php.html" title="View all posts in sponsored sociopathy" rel="category tag">sponsored sociopathy</a> on <a href="../../../../index.html%3Fp=232.html" title="3:24 am" rel="bookmark"><time class="entry-date" datetime="2013-10-20T03:24:19+00:00">October 20, 2013</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../../../author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
-	</article><!-- #post -->
-
-	<article id="post-211" class="post-211 post type-post status-publish format-standard hentry category-conscience category-counter-culture category-economics category-investment category-money category-psychopaths category-specialization category-trust">
-				<header class="entry-header">
-									<h1 class="entry-title">
-				<a href="../../../../index.html%3Fp=211.html" rel="bookmark">Time is not money</a>
-			</h1>
-										<div class="comments-link">
-					<a href="../../../../index.html%3Fp=211.html#respond" title="Comment on Time is not money"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
-					</header><!-- .entry-header -->
-
-				<div class="entry-content">
-			<div class="simplesocialbuttons">
-<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/211"></div></div>
-<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/211" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
-<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="Time is not money" data-url="http://civgene.matthewnewhall.com/archives/211" rel="nofollow"></a></div>
-</div>
-<p style="text-align: center;"><a href="../../../../wp-content/uploads/2013/10/in-time.jpg"><img class="alignnone size-medium wp-image-212" alt="IN TIME" src="../../../../wp-content/uploads/2013/10/in-time-300x200.jpg" width="300" height="200" /></a></p>
-<p>&nbsp;</p>
-<p>We have chosen to measure our economic success in our currency.  Our dollar denominates GDP growth, goods produced, jobs created, whatever.  But the currency is not the important thing here but rather the production.  The official position is we are satisfied with linear production growth, but we know production is non linear.  Also the currency is expanding, making the measurement smaller than it actually seems.  So rather than the natural state of exponential growth, the economy is shrinking, it&#8217;s obvious when you consider it is being measured with stretched out rubber dollars.  Even the equity markets are just another rubber money.  Distorting our perception of the goods and services produced and the level of positive effect that can have on quality of life.</p>
-<p>That lack of production can mean many things, but the one thing that connects them all is trust.  People choose not to invent and produce because they see a large risk they will be stolen from.  That perception ebbs and flows, but in the big picture the trend is down.  It is inversely proportional to the number of psychopaths in our society.</p>
-<p>So corruption and waste are eating away at our quality of life.  You are told things are normal, but you scramble from task to task to make ends meet.  Quality of life can best be measured in free time.  Time to make your own choices.  Being able to decide what to do with your time means investing (risking) your time in your own future.  This is where real invention comes from.  Invention is the only thing that matters in the long run, because it is where all production increases come from.  The less free time people have, the worse the economy is doing.</p>
-<p>Do you have more free time or less than ten years ago?  Your family?  Your neighbors?  Make some time think about this, if you can.  Next time someone tells you a product or a law will save you money, ask yourself instead, will it save me time?  Time, like thoughts, are yours to give.</p>
-					</div><!-- .entry-content -->
-		
-		<footer class="entry-meta">
-			This entry was posted in <a href="../../empaths/metamind/conscience/index.html" title="View all posts in conscience" rel="category tag">conscience</a>, <a href="../counter-culture/index.html" title="View all posts in counter-culture" rel="category tag">counter-culture</a>, <a href="../../empaths/economics/index.html" title="View all posts in economics" rel="category tag">economics</a>, <a href="../../empaths/economics/investment/index.html" title="View all posts in investment" rel="category tag">investment</a>, <a href="../../empaths/economics/money/index.html" title="View all posts in money" rel="category tag">money</a>, <a href="../../psychopaths/index.html" title="View all posts in PSYCHOPATHS" rel="category tag">PSYCHOPATHS</a>, <a href="../../empaths/economics/specialization/index.html" title="View all posts in specialization" rel="category tag">specialization</a>, <a href="../../empaths/trust/index.html" title="View all posts in trust" rel="category tag">trust</a> on <a href="../../../../index.html%3Fp=211.html" title="4:32 pm" rel="bookmark"><time class="entry-date" datetime="2013-10-17T16:32:45+00:00">October 17, 2013</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../../../author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
 	</article><!-- #post -->
 		<nav id="nav-below" class="navigation" role="navigation">
 			<h3 class="assistive-text">Post navigation</h3>
@@ -598,7 +683,8 @@ This is a nice advantage.  If someone calls you &#8216;stupid&#8217;, true or n
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
-			<li><a href='../../../date/2017/03.html' title='March 2017'>March 2017</a></li>
+			<li><a href='../../../date/2017/04.html' title='April 2017'>April 2017</a></li>
+	<li><a href='../../../date/2017/03.html' title='March 2017'>March 2017</a></li>
 	<li><a href='../../../date/2017/02.html' title='February 2017'>February 2017</a></li>
 	<li><a href='../../../date/2017/01.html' title='January 2017'>January 2017</a></li>
 	<li><a href='../../../date/2016/12.html' title='December 2016'>December 2016</a></li>

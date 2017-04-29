@@ -19,11 +19,82 @@
 <![endif]-->
 
 <!-- All in One SEO Pack 2.3.12.2.1 by Michael Torbert of Semper Fi Web Design[300,379] -->
+<link rel="author" href="http://civgene" />
+<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",		  "name": "The Civilization Gene",		  "url": "http://civgene.matthewnewhall.com/"
+        }
+</script>
 <link rel='prev' href='3.html' />
 <link rel='next' href='5.html' />
 
 <link rel="canonical" href="4.html" />
-<!-- /all in one seo pack -->
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-60178840-1', 'auto');
+			
+			ga('send', 'pageview');
+			</script>
+					<script type="text/javascript">
+						function recordOutboundLink(link, category, action) {
+														ga('send', 'event', category, action);
+														if (link.target == '_blank') return true;
+							setTimeout('document.location = "' + link.href + '"', 100);
+							return false;
+						}
+						/* use regular Javascript for this */
+						function getAttr(ele, attr) {
+							var result = (ele.getAttribute && ele.getAttribute(attr)) || null;
+							if (!result) {
+								var attrs = ele.attributes;
+								var length = attrs.length;
+								for (var i = 0; i < length; i++)
+									if (attr[i].nodeName === attr) result = attr[i].nodeValue;
+							}
+							return result;
+						}
+
+						function aiosp_addLoadEvent(func) {
+							var oldonload = window.onload;
+							if (typeof window.onload != 'function') {
+								window.onload = func;
+							} else {
+								window.onload = function () {
+									if (oldonload) {
+										oldonload();
+									}
+									func();
+								}
+							}
+						}
+
+						function aiosp_addEvent(element, evnt, funct) {
+							if (element.attachEvent)
+								return element.attachEvent('on' + evnt, funct);
+							else
+								return element.addEventListener(evnt, funct, false);
+						}
+
+						aiosp_addLoadEvent(function () {
+							var links = document.getElementsByTagName('a');
+							for (var x = 0; x < links.length; x++) {
+								if (typeof links[x] == 'undefined') continue;
+								aiosp_addEvent(links[x], 'onclick', function () {
+									var mydomain = new RegExp(document.domain, 'i');
+									href = getAttr(this, 'href');
+									if (href && href.toLowerCase().indexOf('http') === 0 && !mydomain.test(href)) {
+										recordOutboundLink(this, 'Outbound Links', href);
+									}
+								});
+							}
+						});
+					</script>
+					<!-- /all in one seo pack -->
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Feed" href="../feed.html" />
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Comments Feed" href="../comments/feed.html" />
 <link rel='stylesheet' id='twentytwelve-fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
@@ -31,6 +102,9 @@
 <!--[if lt IE 9]>
 <link rel='stylesheet' id='twentytwelve-ie-css'  href='http://civgene.matthewnewhall.com/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
 <![endif]-->
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='../wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js%3Fver=1.6.1'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php%3Frsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://civgene.matthewnewhall.com/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 3.6.1" />
@@ -47,7 +121,20 @@
 </style>
 <!-- End of Simple Social Buttons -->
 
-	<style type="text/css" id="twentytwelve-header-css">
+
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script data-cfasync="false" type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	dataLayer.push({"pagePostType":"frontpage"});
+</script>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KKC6N3B');</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by DuracellTomi -->	<style type="text/css" id="twentytwelve-header-css">
 			.site-header h1 a,
 		.site-header h2 {
 			color: #474747;
@@ -58,7 +145,11 @@ body.custom-background { background-color: #e6e6e6; }
 </style>
 </head> <!-- place holder for optional banner ad --> <div align=center><FONT color=#FF0000 size=5>Static  Mirror</FONT> of <a href="http://civgene.matthewnewhall.com/">http://civgene.matthewnewhall.com/</a></div>
 
-<body class="home blog paged custom-background paged-4 custom-font-enabled single-author">
+<body class="home blog paged custom-background paged-4 custom-font-enabled single-author ">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-KKC6N3B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><br style="display:none;">
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
@@ -79,6 +170,32 @@ body.custom-background { background-color: #e6e6e6; }
 		<div id="content" role="main">
 		
 										
+	<article id="post-1169" class="post-1169 post type-post status-publish format-standard hentry category-cult category-economics category-faith category-know-yourself category-religion category-society category-type-one-civilization">
+				<header class="entry-header">
+									<h1 class="entry-title">
+				<a href="../index.html%3Fp=1169.html" rel="bookmark">Freedom from cult</a>
+			</h1>
+										<div class="comments-link">
+					<a href="../index.html%3Fp=1169.html#respond" title="Comment on Freedom from cult"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<div class="simplesocialbuttons">
+<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/1169"></div></div>
+<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/1169" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
+<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="Freedom from cult" data-url="http://civgene.matthewnewhall.com/archives/1169" rel="nofollow"></a></div>
+</div>
+<p><a href="../wp-content/uploads/2016/02/nowhere.jpg"><img class="size-medium wp-image-1170 aligncenter" alt="nowhere" src="../wp-content/uploads/2016/02/nowhere-300x225.jpg" width="300" height="225" /></a></p>
+<p>All faith is attacked.  Defend it.  Cult is pushed as faith. Faith is pushed as cult. People run from persecutions of faith to religions, which in turn become more important and harder to fork from.   The goal becomes not exploration of faith , but strength in numbers.  Fear makes people obedient, and hence statist.  Statism puts hierarchy above economy, freedom and civilization it&#8217;s self.</p>
+<p><strong> If you don&#8217;t have any faith, your own conscience is as foreign as illicit hallucinogens.  </strong></p>
+<p>Faith is a top enemy of evil. Evil&#8217;s grand lie is that there is only one true faith, and you may only obtain it thought cult. Were this true forking would be impossible, and choice meaningless. This is how people submit ownership of themselves. The truth is the only universal sin is no faith at all.</p>
+<p>Please explore the virtues of knowing something, you can&#8217;t prove.  If you won&#8217;t, you can&#8217;t know yourself.  Civilization wants you back.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="../archives/category/psychopaths/cult/index.php.html" title="View all posts in cult" rel="category tag">cult</a>, <a href="../archives/category/empaths/economics/index.html" title="View all posts in economics" rel="category tag">economics</a>, <a href="../archives/category/empaths/know-yourself/faith/index.html" title="View all posts in faith" rel="category tag">faith</a>, <a href="../archives/category/empaths/know-yourself/index.html" title="View all posts in know yourself" rel="category tag">know yourself</a>, <a href="../archives/category/society/religion/index.php.html" title="View all posts in religion" rel="category tag">religion</a>, <a href="../archives/category/society/index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a>, <a href="../archives/category/psychopaths/defense-against-psychopaths/type-one-civilization/index.html" title="View all posts in Type One Civilization" rel="category tag">Type One Civilization</a> on <a href="../index.html%3Fp=1169.html" title="5:51 pm" rel="bookmark"><time class="entry-date" datetime="2016-02-09T17:51:06+00:00">February 9, 2016</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../archives/author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
 	<article id="post-1155" class="post-1155 post type-post status-publish format-standard hentry category-childhood category-civilization-gene category-defense-against-psychopaths category-empaths category-genetics category-government category-investment category-know-yourself category-logic category-masters-and-slaves category-meta-psychopaths category-metamind category-obedience category-psychology category-rationalization category-reason category-respect category-slavery category-society category-type-one-civilization tag-obedience">
 				<header class="entry-header">
 									<h1 class="entry-title">
@@ -312,35 +429,6 @@ Edit v.3 :  After some consideration realized fiat is a substitute for coinage.
 		
 		<footer class="entry-meta">
 			This entry was posted in <a href="../archives/category/government/capitalism/index.html" title="View all posts in capitalism" rel="category tag">capitalism</a>, <a href="../archives/category/society/science/genetics/civilization-gene/index.html" title="View all posts in civilization gene" rel="category tag">civilization gene</a>, <a href="../archives/category/empaths/economics/collapse/index.html" title="View all posts in collapse" rel="category tag">collapse</a>, <a href="../archives/category/government/communism/index.php.html" title="View all posts in communism" rel="category tag">communism</a>, <a href="../archives/category/empaths/economics/currency/index.html" title="View all posts in currency" rel="category tag">currency</a>, <a href="../archives/category/psychopaths/defense-against-psychopaths/index.html" title="View all posts in defense against psychopaths" rel="category tag">defense against psychopaths</a>, <a href="../archives/category/empaths/economics/index.html" title="View all posts in economics" rel="category tag">economics</a>, <a href="../archives/category/empaths/index.html" title="View all posts in EMPATHS" rel="category tag">EMPATHS</a>, <a href="../archives/category/government/index.html" title="View all posts in GOVERNMENT" rel="category tag">GOVERNMENT</a>, <a href="../archives/category/empaths/economics/investment/index.html" title="View all posts in investment" rel="category tag">investment</a>, <a href="../archives/category/psychopaths/defense-against-psychopaths/type-one-civilization/legal-distribution/index.html" title="View all posts in Legal Distribution" rel="category tag">Legal Distribution</a>, <a href="../archives/category/government/monarchy/index.php.html" title="View all posts in monarchy" rel="category tag">monarchy</a>, <a href="../archives/category/empaths/economics/money/index.html" title="View all posts in money" rel="category tag">money</a>, <a href="../archives/category/empaths/metamind/natural-law/index.php.html" title="View all posts in natural law" rel="category tag">natural law</a>, <a href="../archives/category/psychopaths/defense-against-psychopaths/propaganda/index.html" title="View all posts in propaganda" rel="category tag">propaganda</a>, <a href="../archives/category/empaths/economics/property/index.php.html" title="View all posts in property" rel="category tag">property</a>, <a href="../archives/category/government/republic/index.html" title="View all posts in republic" rel="category tag">republic</a>, <a href="../archives/category/psychopaths/defense-against-psychopaths/type-one-civilization/index.html" title="View all posts in Type One Civilization" rel="category tag">Type One Civilization</a> on <a href="../index.html%3Fp=1042.html" title="7:20 pm" rel="bookmark"><time class="entry-date" datetime="2015-10-12T19:20:34+00:00">October 12, 2015</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../archives/author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
-	</article><!-- #post -->
-							
-	<article id="post-1037" class="post-1037 post type-post status-publish format-standard hentry category-entertainment category-government category-projection category-propaganda category-psychology category-society category-subconscious-olympics">
-				<header class="entry-header">
-									<h1 class="entry-title">
-				<a href="../index.html%3Fp=1037.html" rel="bookmark">Phallacy</a>
-			</h1>
-										<div class="comments-link">
-					<a href="../index.html%3Fp=1037.html#respond" title="Comment on Phallacy"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
-					</header><!-- .entry-header -->
-
-				<div class="entry-content">
-			<div class="simplesocialbuttons">
-<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/1037"></div></div>
-<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/1037" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
-<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="Phallacy" data-url="http://civgene.matthewnewhall.com/archives/1037" rel="nofollow"></a></div>
-</div>
-<p><a href="../wp-content/uploads/2015/09/cigar.jpg"><img class="size-full wp-image-1038 aligncenter" alt="cigar" src="../wp-content/uploads/2015/09/cigar.jpg" width="300" height="200" /></a></p>
-<p>I have a full size van.  I consistently have the largest car in the parking lot.  Some would say this implies I have a small penis.  It is usually filled with my family since I don&#8217;t drive it empty, have fun with that one too.</p>
-<p>But when I drive to work I typically take my motorcycle which is one of the smallest cars on the road, does that mean I have a large penis?  But it&#8217;s one of the largest motorcycles on the road, dwarfing mopeds and the occasional sub compact car.  Does that mean I have a medium penis?</p>
-<p>The reason I typically choose the largest vehicle in it&#8217;s class is because I took physics in college, where a professor who helped design the moon lander explained in great detail why a shorter distance of deceleration in a crash results in more Gs, and more Gs result in more deaths.  Big cars and truck deform and crush into scrap for a longer distance within the car.</p>
-<p>Does this mean physics professors or engineers have small penises?   More interestingly does this mean that people with small penises are attracted together in some sort of natural nerd herd?  Does group learning make the penis smaller?  I founded and run a computer group which is definitely a nerd herd, does that mean I have the smallest penis?</p>
-<p>I own two guns, and it is said that people with guns are compensating for a small penis.  But I only got them a few years ago, does that mean my penis recently got smaller?  If my penis will change it&#8217;s size depending on what I own or use does that mean it will grow again if I discard them?   If I take Viagra will my guns shrink?  And my cars?  Perhaps it is that I rarely use the guns or the van.  The more often I use them the smaller my penis will get?  If so what does that imply for police who are typically required to carry guns all the time?  Perhaps they don&#8217;t use them?  This seems to make sense with American sexual activity after the war.  Men discarded their guns and reunited with their wives, and made an entire baby boom.  But many of those vets armed themselves with civilian guns when they returned.  Perhaps some sort of birth control?  Further this would imply that counties with population problems like China and India should arm their populations to shrink their men&#8217;s penises and have less children.</p>
-<p>Where did this idea come from?   Where else, but from psychology and Sigmund Freud.  His idea of a phallic symbol or a symbol for the penis in penis shaped everyday items implied a sense of inadequacy.  But this was originally termed &#8216;penis envy&#8217; and meant to describe women, who were subconsciously angry they were not men.  This sounds very different from the item to penis size ratio.  What did Freud actually say about this?  “A fear of weapons is a sign of retarded sexual and emotional maturity.”   He was very famous for the analogy that a cigar could be a big brown penis for some people (specifically women), at a time when cigars were very popular.  It was considered socially unsightly and abhorrent for women to smoke at the time, much less a large fragrant cigar.  But he himself smoked cigars.  If penis envy was intended for analysis of men, why did Freud himself smoke them?</p>
-<p>Laughing at the sexual inadequacy of men with big equipment?  Perhaps you should read about <a href="https://en.wikipedia.org/wiki/Psychological_projection">projection</a>.</p>
-					</div><!-- .entry-content -->
-		
-		<footer class="entry-meta">
-			This entry was posted in <a href="../archives/category/entertainment/index.html" title="View all posts in ENTERTAINMENT" rel="category tag">ENTERTAINMENT</a>, <a href="../archives/category/government/index.html" title="View all posts in GOVERNMENT" rel="category tag">GOVERNMENT</a>, <a href="../archives/category/psychology/projection/index.php.html" title="View all posts in projection" rel="category tag">projection</a>, <a href="../archives/category/psychopaths/defense-against-psychopaths/propaganda/index.html" title="View all posts in propaganda" rel="category tag">propaganda</a>, <a href="../archives/category/psychology/index.html" title="View all posts in PSYCHOLOGY" rel="category tag">PSYCHOLOGY</a>, <a href="../archives/category/society/index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a>, <a href="../archives/category/entertainment/subconscious-olympics/index.php.html" title="View all posts in subconscious olympics" rel="category tag">subconscious olympics</a> on <a href="../index.html%3Fp=1037.html" title="6:24 pm" rel="bookmark"><time class="entry-date" datetime="2015-09-12T18:24:40+00:00">September 12, 2015</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../archives/author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
 	</article><!-- #post -->
 			
 					<nav id="nav-below" class="navigation" role="navigation">
@@ -606,7 +694,8 @@ Edit v.3 :  After some consideration realized fiat is a substitute for coinage.
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
-			<li><a href='../archives/date/2017/03.html' title='March 2017'>March 2017</a></li>
+			<li><a href='../archives/date/2017/04.html' title='April 2017'>April 2017</a></li>
+	<li><a href='../archives/date/2017/03.html' title='March 2017'>March 2017</a></li>
 	<li><a href='../archives/date/2017/02.html' title='February 2017'>February 2017</a></li>
 	<li><a href='../archives/date/2017/01.html' title='January 2017'>January 2017</a></li>
 	<li><a href='../archives/date/2016/12.html' title='December 2016'>December 2016</a></li>

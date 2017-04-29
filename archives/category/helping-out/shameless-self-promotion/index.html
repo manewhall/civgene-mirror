@@ -19,11 +19,76 @@
 <![endif]-->
 
 <!-- All in One SEO Pack 2.3.12.2.1 by Michael Torbert of Semper Fi Web Design[300,355] -->
+<link rel="author" href="http://civgene" />
 <meta name="robots" content="noindex,follow" />
 <link rel='next' href='page/2.html' />
 
 <link rel="canonical" href="index.html" />
-<!-- /all in one seo pack -->
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-60178840-1', 'auto');
+			
+			ga('send', 'pageview');
+			</script>
+					<script type="text/javascript">
+						function recordOutboundLink(link, category, action) {
+														ga('send', 'event', category, action);
+														if (link.target == '_blank') return true;
+							setTimeout('document.location = "' + link.href + '"', 100);
+							return false;
+						}
+						/* use regular Javascript for this */
+						function getAttr(ele, attr) {
+							var result = (ele.getAttribute && ele.getAttribute(attr)) || null;
+							if (!result) {
+								var attrs = ele.attributes;
+								var length = attrs.length;
+								for (var i = 0; i < length; i++)
+									if (attr[i].nodeName === attr) result = attr[i].nodeValue;
+							}
+							return result;
+						}
+
+						function aiosp_addLoadEvent(func) {
+							var oldonload = window.onload;
+							if (typeof window.onload != 'function') {
+								window.onload = func;
+							} else {
+								window.onload = function () {
+									if (oldonload) {
+										oldonload();
+									}
+									func();
+								}
+							}
+						}
+
+						function aiosp_addEvent(element, evnt, funct) {
+							if (element.attachEvent)
+								return element.attachEvent('on' + evnt, funct);
+							else
+								return element.addEventListener(evnt, funct, false);
+						}
+
+						aiosp_addLoadEvent(function () {
+							var links = document.getElementsByTagName('a');
+							for (var x = 0; x < links.length; x++) {
+								if (typeof links[x] == 'undefined') continue;
+								aiosp_addEvent(links[x], 'onclick', function () {
+									var mydomain = new RegExp(document.domain, 'i');
+									href = getAttr(this, 'href');
+									if (href && href.toLowerCase().indexOf('http') === 0 && !mydomain.test(href)) {
+										recordOutboundLink(this, 'Outbound Links', href);
+									}
+								});
+							}
+						});
+					</script>
+					<!-- /all in one seo pack -->
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Feed" href="../../../../feed.html" />
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Comments Feed" href="../../../../comments/feed.html" />
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; shameless self promotion Category Feed" href="feed.html" />
@@ -32,6 +97,9 @@
 <!--[if lt IE 9]>
 <link rel='stylesheet' id='twentytwelve-ie-css'  href='http://civgene.matthewnewhall.com/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
 <![endif]-->
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='../../../../wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js%3Fver=1.6.1'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../xmlrpc.php%3Frsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://civgene.matthewnewhall.com/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 3.6.1" />
@@ -48,7 +116,20 @@
 </style>
 <!-- End of Simple Social Buttons -->
 
-	<style type="text/css" id="twentytwelve-header-css">
+
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script data-cfasync="false" type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	dataLayer.push({"pagePostType":"post","pagePostType2":"category-post","pageCategory":["helping-out","shameless-self-promotion","society","website"]});
+</script>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KKC6N3B');</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by DuracellTomi -->	<style type="text/css" id="twentytwelve-header-css">
 			.site-header h1 a,
 		.site-header h2 {
 			color: #474747;
@@ -59,7 +140,11 @@ body.custom-background { background-color: #e6e6e6; }
 </style>
 </head> <!-- place holder for optional banner ad --> <div align=center><FONT color=#FF0000 size=5>Static  Mirror</FONT> of <a href="http://civgene.matthewnewhall.com/">http://civgene.matthewnewhall.com/</a></div>
 
-<body class="archive category category-shameless-self-promotion category-33 custom-background custom-font-enabled single-author">
+<body class="archive category category-shameless-self-promotion category-33 custom-background custom-font-enabled single-author ">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-KKC6N3B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><br style="display:none;">
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
@@ -85,6 +170,32 @@ body.custom-background { background-color: #e6e6e6; }
 						</header><!-- .archive-header -->
 
 			
+	<article id="post-1437" class="post-1437 post type-post status-publish format-standard hentry category-helping-out category-shameless-self-promotion category-society category-website">
+				<header class="entry-header">
+									<h1 class="entry-title">
+				<a href="../../../../index.html%3Fp=1437.html" rel="bookmark">Website updates</a>
+			</h1>
+										<div class="comments-link">
+					<a href="../../../../index.html%3Fp=1437.html#respond" title="Comment on Website updates"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<div class="simplesocialbuttons">
+<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/1437"></div></div>
+<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/1437" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
+<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="Website updates" data-url="http://civgene.matthewnewhall.com/archives/1437" rel="nofollow"></a></div>
+</div>
+<p><a href="../../../../wp-content/uploads/2017/04/google.png"><img class="size-medium wp-image-1438 aligncenter" alt="google" src="../../../../wp-content/uploads/2017/04/google-300x156.png" width="300" height="156" /></a></p>
+<p>Finally the git/mirror code is fixed and should once again have the latest copy of the site.  Please consider helping civgene and mirroring it.    See <a href="../../../../static-mirrors.1.html">this page</a> for details.</p>
+<p>In addition I have done some things to improve the sites SEO (appeasing search engines).   Including google analytics updates, more search engine hints, and a shorter main page.  If you have any trouble or if a page or feature is missing, please let me know at comments@civgene.matthewnewhall.com</p>
+<p>Keeping your papers in order with Google is quickly becoming a full time job, but hopefully civgene can squeak by the &#8216;consumer orientated&#8217; checkpoints once again.</p>
+<p>Next up a worthy cause, enycryption (SSL.)  More civgene soon.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="../index.html" title="View all posts in HELPING OUT" rel="category tag">HELPING OUT</a>, <a href="index.html" title="View all posts in shameless self promotion" rel="category tag">shameless self promotion</a>, <a href="../../society/index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a>, <a href="../website/index.html" title="View all posts in website" rel="category tag">website</a> on <a href="../../../../index.html%3Fp=1437.html" title="8:38 pm" rel="bookmark"><time class="entry-date" datetime="2017-04-21T20:38:21+00:00">April 21, 2017</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../../../author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
 	<article id="post-1341" class="post-1341 post type-post status-publish format-standard hentry category-civilization-gene category-empaths category-entertainment category-genetics category-government category-helping-out category-logic category-psychology category-psychopaths category-reason category-science category-shameless-self-promotion category-society">
 				<header class="entry-header">
 									<h1 class="entry-title">
@@ -305,37 +416,6 @@ body.custom-background { background-color: #e6e6e6; }
 		
 		<footer class="entry-meta">
 			This entry was posted in <a href="../../empaths/know-yourself/index.html" title="View all posts in know yourself" rel="category tag">know yourself</a>, <a href="index.html" title="View all posts in shameless self promotion" rel="category tag">shameless self promotion</a>, <a href="../website/index.html" title="View all posts in website" rel="category tag">website</a> on <a href="../../../../index.html%3Fp=476.html" title="5:31 pm" rel="bookmark"><time class="entry-date" datetime="2013-12-18T17:31:46+00:00">December 18, 2013</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../../../author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
-	</article><!-- #post -->
-
-	<article id="post-337" class="post-337 post type-post status-publish format-standard hentry category-shameless-self-promotion category-trust category-website">
-				<header class="entry-header">
-									<h1 class="entry-title">
-				<a href="../../../../index.html%3Fp=337.html" rel="bookmark">Sorry I&#8217;m a big fat hypocrate.  New theories page</a>
-			</h1>
-										<div class="comments-link">
-					<a href="../../../../index.html%3Fp=337.html#respond" title="Comment on Sorry I&#8217;m a big fat hypocrate.  New theories page"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
-					</header><!-- .entry-header -->
-
-				<div class="entry-content">
-			<div class="simplesocialbuttons">
-<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/337"></div></div>
-<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/337" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
-<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="Sorry I&#8217;m a big fat hypocrate.  New theories page" data-url="http://civgene.matthewnewhall.com/archives/337" rel="nofollow"></a></div>
-</div>
-<p style="text-align: center;"><a href="../../../../wp-content/uploads/2013/11/doh.png"><img class="alignnone size-medium wp-image-338" alt="doh" src="../../../../wp-content/uploads/2013/11/doh-300x300.png" width="300" height="300" /></a></p>
-<p>After rereading the critique in my last post I realized I was accusing someone else of something I couldn&#8217;t live up to.  I have posted a page with the new theories discussed here.  If you are new to the site and don&#8217;t want to read three months of posts.  You now have a third option.  Go right to the <a title="Theories" href="../../../../theories.1.html">one line summaries of all the theories</a>.</p>
-<p><strong>So now you can </strong></p>
-<ul>
-<li>Go to the <a title="‘Civilization Gene’ background" href="../../../../index.html%3Fpage_id=2.html">background page</a> for a human narrative with contextual hyperlinks to all papers.</li>
-<li>Go to the <a title="Terminology" href="../../../../index.html%3Fpage_id=170.html">terminology page</a> for definitions of specific words.</li>
-<li>Go to the <a title="Theories" href="../../../../theories.1.html">theories page</a> for a list of all site theories including ones listed only in blog posts.</li>
-</ul>
-<p>&nbsp;</p>
-<h1 class="entry-title"></h1>
-					</div><!-- .entry-content -->
-		
-		<footer class="entry-meta">
-			This entry was posted in <a href="index.html" title="View all posts in shameless self promotion" rel="category tag">shameless self promotion</a>, <a href="../../empaths/trust/index.html" title="View all posts in trust" rel="category tag">trust</a>, <a href="../website/index.html" title="View all posts in website" rel="category tag">website</a> on <a href="../../../../index.html%3Fp=337.html" title="6:25 pm" rel="bookmark"><time class="entry-date" datetime="2013-11-04T18:25:58+00:00">November 4, 2013</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../../../author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
 	</article><!-- #post -->
 		<nav id="nav-below" class="navigation" role="navigation">
 			<h3 class="assistive-text">Post navigation</h3>
@@ -600,7 +680,8 @@ body.custom-background { background-color: #e6e6e6; }
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
-			<li><a href='../../../date/2017/03.html' title='March 2017'>March 2017</a></li>
+			<li><a href='../../../date/2017/04.html' title='April 2017'>April 2017</a></li>
+	<li><a href='../../../date/2017/03.html' title='March 2017'>March 2017</a></li>
 	<li><a href='../../../date/2017/02.html' title='February 2017'>February 2017</a></li>
 	<li><a href='../../../date/2017/01.html' title='January 2017'>January 2017</a></li>
 	<li><a href='../../../date/2016/12.html' title='December 2016'>December 2016</a></li>

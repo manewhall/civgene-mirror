@@ -19,12 +19,77 @@
 <![endif]-->
 
 <!-- All in One SEO Pack 2.3.12.2.1 by Michael Torbert of Semper Fi Web Design[300,347] -->
+<link rel="author" href="http://civgene" />
 <meta name="robots" content="noindex,follow" />
 <link rel='prev' href='3.html' />
 <link rel='next' href='5.html' />
 
 <link rel="canonical" href="4.html" />
-<!-- /all in one seo pack -->
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-60178840-1', 'auto');
+			
+			ga('send', 'pageview');
+			</script>
+					<script type="text/javascript">
+						function recordOutboundLink(link, category, action) {
+														ga('send', 'event', category, action);
+														if (link.target == '_blank') return true;
+							setTimeout('document.location = "' + link.href + '"', 100);
+							return false;
+						}
+						/* use regular Javascript for this */
+						function getAttr(ele, attr) {
+							var result = (ele.getAttribute && ele.getAttribute(attr)) || null;
+							if (!result) {
+								var attrs = ele.attributes;
+								var length = attrs.length;
+								for (var i = 0; i < length; i++)
+									if (attr[i].nodeName === attr) result = attr[i].nodeValue;
+							}
+							return result;
+						}
+
+						function aiosp_addLoadEvent(func) {
+							var oldonload = window.onload;
+							if (typeof window.onload != 'function') {
+								window.onload = func;
+							} else {
+								window.onload = function () {
+									if (oldonload) {
+										oldonload();
+									}
+									func();
+								}
+							}
+						}
+
+						function aiosp_addEvent(element, evnt, funct) {
+							if (element.attachEvent)
+								return element.attachEvent('on' + evnt, funct);
+							else
+								return element.addEventListener(evnt, funct, false);
+						}
+
+						aiosp_addLoadEvent(function () {
+							var links = document.getElementsByTagName('a');
+							for (var x = 0; x < links.length; x++) {
+								if (typeof links[x] == 'undefined') continue;
+								aiosp_addEvent(links[x], 'onclick', function () {
+									var mydomain = new RegExp(document.domain, 'i');
+									href = getAttr(this, 'href');
+									if (href && href.toLowerCase().indexOf('http') === 0 && !mydomain.test(href)) {
+										recordOutboundLink(this, 'Outbound Links', href);
+									}
+								});
+							}
+						});
+					</script>
+					<!-- /all in one seo pack -->
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Feed" href="../../../../feed.html" />
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Comments Feed" href="../../../../comments/feed.html" />
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; SOCIETY Category Feed" href="../feed.html" />
@@ -33,6 +98,9 @@
 <!--[if lt IE 9]>
 <link rel='stylesheet' id='twentytwelve-ie-css'  href='http://civgene.matthewnewhall.com/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
 <![endif]-->
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='../../../../wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js%3Fver=1.6.1'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../xmlrpc.php%3Frsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://civgene.matthewnewhall.com/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 3.6.1" />
@@ -49,7 +117,20 @@
 </style>
 <!-- End of Simple Social Buttons -->
 
-	<style type="text/css" id="twentytwelve-header-css">
+
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script data-cfasync="false" type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	dataLayer.push({"pagePostType":"post","pagePostType2":"category-post","pageCategory":["childhood","civilization-gene","conscience","empaths","genetics","intelligence","jealousy","metamind","pack-gene","psychology","psychopaths","science","study","subconscious","sympathy","trust"]});
+</script>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KKC6N3B');</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by DuracellTomi -->	<style type="text/css" id="twentytwelve-header-css">
 			.site-header h1 a,
 		.site-header h2 {
 			color: #474747;
@@ -60,7 +141,11 @@ body.custom-background { background-color: #e6e6e6; }
 </style>
 </head> <!-- place holder for optional banner ad --> <div align=center><FONT color=#FF0000 size=5>Static  Mirror</FONT> of <a href="http://civgene.matthewnewhall.com/">http://civgene.matthewnewhall.com/</a></div>
 
-<body class="archive paged category category-society category-5 custom-background paged-4 category-paged-4 custom-font-enabled single-author">
+<body class="archive paged category category-society category-5 custom-background paged-4 category-paged-4 custom-font-enabled single-author ">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-KKC6N3B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><br style="display:none;">
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
@@ -86,6 +171,45 @@ body.custom-background { background-color: #e6e6e6; }
 						</header><!-- .archive-header -->
 
 			
+	<article id="post-1098" class="post-1098 post type-post status-publish format-standard hentry category-childhood category-civilization-gene category-conscience category-empaths category-genetics category-intelligence category-jealousy category-metamind category-pack-gene category-psychology category-psychopaths category-science category-study category-subconscious category-sympathy category-trust">
+				<header class="entry-header">
+									<h1 class="entry-title">
+				<a href="../../../../index.html%3Fp=1098.html" rel="bookmark">Science behind civgene:  The puzzle box</a>
+			</h1>
+										<div class="comments-link">
+					<a href="../../../../index.html%3Fp=1098.html#respond" title="Comment on Science behind civgene:  The puzzle box"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<div class="simplesocialbuttons">
+<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/1098"></div></div>
+<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/1098" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
+<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="Science behind civgene:  The puzzle box" data-url="http://civgene.matthewnewhall.com/archives/1098" rel="nofollow"></a></div>
+</div>
+<p>&nbsp;</p>
+<p>Responding to some rather silly accusations that I just made civgene up.   This was always intended as a destination in hard science, at the least.   First the septic may want to look at the <a title="http://www.civgene.matthewnewhall.com/papers/Civgene-falsifiability.html" href="http://www.civgene.matthewnewhall.com/papers/Civgene-falsifiability.html">paper on falsification</a>.   And then go on to answer why civgene is <a href="../../../../index.html%3Fp=896.html">not just &#8216;the pack gene&#8217; plus intelligence.</a></p>
+<p>Now for a behavior feather in the cap of civgene. Imagination vs visualization.  You many want to see some earlier <a title="http://civgene.matthewnewhall.com/archives/745" href="../../../../index.html%3Fp=745.html">psychopath/animal vs empath comparisons here</a>.</p>
+<p>Humans know humans can be trusted.  Humans know visible appearance (the primary sense) can differ from attributes. The foundation of imagination.</p>
+<p>Website.</p>
+<p><a href="http://www.pbs.org/wnet/humanspark/lessons/experimenting-with-experiments/video-segments/?p=432">http://www.pbs.org/wnet/humanspark/lessons/experimenting-with-experiments/video-segments/?p=432</a></p>
+<p>Direct to movie.<br />
+<a href="http://www-tc.pbs.org/wnet/wp-content/blogs.dir/7/files/2010/12/Humans-vs.-Chimps_RE-DO1.mov">http://www-tc.pbs.org/wnet/wp-content/blogs.dir/7/files/2010/12/Humans-vs.-Chimps_RE-DO1.mov</a></p>
+<p>Autoplay is off on the movie below. Usually you click or tap and try space bar. It&#8217;s a little over 3 minutes long.</p>
+<p><object width="512" height="288" classid="clsid:02bf25d5-8c17-4b23-bc80-d3488abddc6b" codebase="http://www.apple.com/qtactivex/qtplugin.cab#version=6,0,2,0"><param name="src" value="http://www-tc.pbs.org/wnet/wp-content/blogs.dir/7/files/2010/12/Humans-vs.-Chimps_RE-DO1.mov" /><param name="autoplay" value="false" /><param name="pluginspage" value="http://www.apple.com/quicktime/download/" /><embed width="512" height="288" type="video/quicktime" src="http://www-tc.pbs.org/wnet/wp-content/blogs.dir/7/files/2010/12/Humans-vs.-Chimps_RE-DO1.mov" autoplay="false" pluginspage="http://www.apple.com/quicktime/download/" /></object></p>
+<p>The key here is the failure of the primates to recognize either that a human pointing was an attempt to assist or that the identically sized boxes are actually different weights.</p>
+<p>Now for one of the original foundations of civgene.  The puzzle box experiment.  Please fast forward to 41:30.  I have not preset the video to that for you because the whole thing is worth watching, but the last 20 minutes are key. If it&#8217;s taken down it&#8217;s a Nova called &#8216;Ape Genius&#8217; if it&#8217;s ever taken down.</p>
+<p><iframe width="625" height="352" src="https://www.youtube.com/embed/SFGTHtrhtfg?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<p>There are three testable differences that separate humans from apes.<br />
+1. Apes have vastly superior visual memories.<br />
+2. Humans quickly reconcile that an object may not be as it visually appears.<br />
+3. Apes won&#8217;t suspend their own observations when taught by demonstration.</p>
+<p>Evolution favors imagination over imitation.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="../../psychology/childhood/index.html" title="View all posts in childhood" rel="category tag">childhood</a>, <a href="../science/genetics/civilization-gene/index.html" title="View all posts in civilization gene" rel="category tag">civilization gene</a>, <a href="../../empaths/metamind/conscience/index.html" title="View all posts in conscience" rel="category tag">conscience</a>, <a href="../../empaths/index.html" title="View all posts in EMPATHS" rel="category tag">EMPATHS</a>, <a href="../science/genetics/index.html" title="View all posts in genetics" rel="category tag">genetics</a>, <a href="../../psychology/intelligence/index.html" title="View all posts in intelligence" rel="category tag">intelligence</a>, <a href="../../psychopaths/jealousy/index.php.html" title="View all posts in jealousy" rel="category tag">jealousy</a>, <a href="../../empaths/metamind/index.html" title="View all posts in metamind" rel="category tag">metamind</a>, <a href="../science/genetics/pack-gene/index.php.html" title="View all posts in pack gene" rel="category tag">pack gene</a>, <a href="../../psychology/index.html" title="View all posts in PSYCHOLOGY" rel="category tag">PSYCHOLOGY</a>, <a href="../../psychopaths/index.html" title="View all posts in PSYCHOPATHS" rel="category tag">PSYCHOPATHS</a>, <a href="../science/index.html" title="View all posts in science" rel="category tag">science</a>, <a href="../science/study/index.html" title="View all posts in study" rel="category tag">study</a>, <a href="../../empaths/metamind/subconscious/index.html" title="View all posts in subconscious" rel="category tag">subconscious</a>, <a href="../../psychology/sympathy/index.php.html" title="View all posts in sympathy" rel="category tag">sympathy</a>, <a href="../../empaths/trust/index.html" title="View all posts in trust" rel="category tag">trust</a> on <a href="../../../../index.html%3Fp=1098.html" title="7:45 pm" rel="bookmark"><time class="entry-date" datetime="2015-11-23T19:45:02+00:00">November 23, 2015</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../../../author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
 	<article id="post-1071" class="post-1071 post type-post status-publish format-standard hentry category-civilization-gene category-conscience category-defense-against-a-psychopath category-defense-against-psychopaths category-faith category-government category-know-yourself category-logic category-marketing category-metamind category-normalcy-bias category-projection category-propaganda category-proto-psychopaths category-rationalization category-reason category-science category-society">
 				<header class="entry-header">
 									<h1 class="entry-title">
@@ -323,34 +447,6 @@ body.custom-background { background-color: #e6e6e6; }
 		
 		<footer class="entry-meta">
 			This entry was posted in <a href="../../government/capitalism/index.html" title="View all posts in capitalism" rel="category tag">capitalism</a>, <a href="../science/genetics/civilization-gene/index.html" title="View all posts in civilization gene" rel="category tag">civilization gene</a>, <a href="../../psychopaths/defense-against-a-psychopath/index.html" title="View all posts in defense against a psychopath" rel="category tag">defense against a psychopath</a>, <a href="../../psychopaths/defense-against-psychopaths/index.html" title="View all posts in defense against psychopaths" rel="category tag">defense against psychopaths</a>, <a href="../../empaths/index.html" title="View all posts in EMPATHS" rel="category tag">EMPATHS</a>, <a href="../science/genetics/index.html" title="View all posts in genetics" rel="category tag">genetics</a>, <a href="../../empaths/economics/investment/index.html" title="View all posts in investment" rel="category tag">investment</a>, <a href="../../empaths/know-yourself/reason/logic/index.html" title="View all posts in logic" rel="category tag">logic</a>, <a href="../../psychopaths/masters-and-slaves/index.html" title="View all posts in masters and slaves" rel="category tag">masters and slaves</a>, <a href="../../empaths/know-yourself/meta-psychopaths/index.html" title="View all posts in meta-psychopaths" rel="category tag">meta-psychopaths</a>, <a href="../../empaths/metamind/index.html" title="View all posts in metamind" rel="category tag">metamind</a>, <a href="../../empaths/proto-psychopaths/index.html" title="View all posts in proto-psychopaths" rel="category tag">proto-psychopaths</a>, <a href="../../psychopaths/index.html" title="View all posts in PSYCHOPATHS" rel="category tag">PSYCHOPATHS</a>, <a href="../../empaths/know-yourself/reason/index.html" title="View all posts in reason" rel="category tag">reason</a>, <a href="../../psychopaths/sociopath/index.html" title="View all posts in sociopath" rel="category tag">sociopath</a>, <a href="../../psychopaths/wants-abilities-limits/index.php.html" title="View all posts in wants abilities limits" rel="category tag">wants abilities limits</a> on <a href="../../../../index.html%3Fp=1006.html" title="4:01 pm" rel="bookmark"><time class="entry-date" datetime="2015-08-04T16:01:31+00:00">August 4, 2015</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../../../author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
-	</article><!-- #post -->
-
-	<article id="post-998" class="post-998 post type-post status-publish format-standard hentry category-capitalism category-civilization-gene category-collapse category-defense-against-psychopaths category-distribution-party category-economics category-forgiveness category-government category-legal-distribution category-psychopaths category-republic category-self-limiting category-society category-sociopath category-type-one-civilization category-violence">
-				<header class="entry-header">
-									<h1 class="entry-title">
-				<a href="../../../../index.html%3Fp=998.html" rel="bookmark">Change robber barrons into robin hood</a>
-			</h1>
-										<div class="comments-link">
-					<a href="../../../../index.html%3Fp=998.html#respond" title="Comment on Change robber barrons into robin hood"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
-					</header><!-- .entry-header -->
-
-				<div class="entry-content">
-			<div class="simplesocialbuttons">
-<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/998"></div></div>
-<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/998" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
-<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="Change robber barrons into robin hood" data-url="http://civgene.matthewnewhall.com/archives/998" rel="nofollow"></a></div>
-</div>
-<p><a href="../../../../wp-content/uploads/2015/08/hood.jpg"><img class="size-medium wp-image-999 aligncenter" alt="hood" src="../../../../wp-content/uploads/2015/08/hood-224x300.jpg" width="224" height="300" /></a></p>
-<p>How do we stop <a title="Is the United States government a psychopath trap?" href="../../../../index.html%3Fp=132.html">psychopaths in government</a>?  If we &#8216;kick their ass&#8217; aka: kill them, it won&#8217;t solve the real problem and law will be subverted to societal destruction again.  The problem is humans are two behavioral sets, and one of the sets seeks power strictly as an end to itself. This is true if it&#8217;s behavioral or genetic(<a title="The civilization gene" href="../../../../index.html">civgene</a>).</p>
-<p>We need the power of popular citizen veto.  <a title="Type one civilization paper complete" href="../../../../index.html%3Fp=353.html">The right to fork is basic human right</a>.  Why?  Psychopaths will take over ANY system we make because making mistakes, even for the smartest or the wisest, is a required part of learning.  That&#8217;s how the conscience works.  No conscience, no concept of risk, half your decision making power is in the toilet.  Those mistakes feed critical data into subconscious risk calculator.  Yes a wise person will keep their error impact small, but they still must make them.  To <a title="Metamind" href="../../../../index.html%3Fp=64.html">err is human</a>, ergo, <a title="Forgiveness is a weapon" href="../../../../index.html%3Fp=599.html">forgiveness is divine</a>.</p>
-<p>The problem with the Austerity/Tea Party solution is the Big Bird(PBS) problem.  Not all government spending is negative or useless.  Even moments before inevitable economic collapse some new laws still reflect use to the society.  This solution (sometimes) can throw the baby out with the bathwater.  <strong>Instead we must reduce the jurisdiction of a law solving the real problem, politicians grabbing power and money for themselves and not sharing   aka:unchecked federalization.</strong>  <a title="Psychopaths sense of self" href="../../../../papers/Psychopaths-Self.html">Psychopaths are adult children</a>, it&#8217;s just like taking the toy from jealous children and saying, &#8216;now I&#8217;m going to keep it.&#8217;  Likely you don&#8217;t want their toy, but now they&#8217;ll think REAL hard before not sharing.</p>
-<p>This is the essence of <a title="Legal distribution" href="../../psychopaths/defense-against-psychopaths/type-one-civilization/legal-distribution/index.html">legal distribution</a>.  The power of popular citizen veto over power politics.  If the corrupt abuse their seats to rob the treasury, at least they have to share.</p>
-<p>If a law is sane at the largest jurisdiction, it will still be sane at the next smallest (or the next).  It lets people closer to a problem separate the wheat from the chaff.  <strong>Yes you will loose some economy of scale at a smaller jurisdiction, but you will also loose all the corruption in the author&#8217;s secret ill intent.  That is a choice the citizen of a republic has a right to weigh themselves.</strong>  The power of the purse strings is gone.  Watch the power hungry hem and haw and try to beat the common sense out of your brain on this.   National security, they&#8217;ll cry.  Tyranny of democracy they&#8217;ll scream.   No.  The law will be just as unsafe and unjust as it was when they controlled it directly, but now you know who they are.</p>
-<p>Time to let the social &#8216;marketplace&#8217; of the states or cities shine some sunlight on the dark favoritism of shady republic law.</p>
-					</div><!-- .entry-content -->
-		
-		<footer class="entry-meta">
-			This entry was posted in <a href="../../government/capitalism/index.html" title="View all posts in capitalism" rel="category tag">capitalism</a>, <a href="../science/genetics/civilization-gene/index.html" title="View all posts in civilization gene" rel="category tag">civilization gene</a>, <a href="../../empaths/economics/collapse/index.html" title="View all posts in collapse" rel="category tag">collapse</a>, <a href="../../psychopaths/defense-against-psychopaths/index.html" title="View all posts in defense against psychopaths" rel="category tag">defense against psychopaths</a>, <a href="../../government/distribution-party/index.php.html" title="View all posts in Distribution Party" rel="category tag">Distribution Party</a>, <a href="../../empaths/economics/index.html" title="View all posts in economics" rel="category tag">economics</a>, <a href="../../empaths/know-yourself/forgiveness/index.php.html" title="View all posts in forgiveness" rel="category tag">forgiveness</a>, <a href="../../government/index.html" title="View all posts in GOVERNMENT" rel="category tag">GOVERNMENT</a>, <a href="../../psychopaths/defense-against-psychopaths/type-one-civilization/legal-distribution/index.html" title="View all posts in Legal Distribution" rel="category tag">Legal Distribution</a>, <a href="../../psychopaths/index.html" title="View all posts in PSYCHOPATHS" rel="category tag">PSYCHOPATHS</a>, <a href="../../government/republic/index.html" title="View all posts in republic" rel="category tag">republic</a>, <a href="../../psychopaths/self-limiting/index.php.html" title="View all posts in self limiting" rel="category tag">self limiting</a>, <a href="../index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a>, <a href="../../psychopaths/sociopath/index.html" title="View all posts in sociopath" rel="category tag">sociopath</a>, <a href="../../psychopaths/defense-against-psychopaths/type-one-civilization/index.html" title="View all posts in Type One Civilization" rel="category tag">Type One Civilization</a>, <a href="../violence/index.html" title="View all posts in violence" rel="category tag">violence</a> on <a href="../../../../index.html%3Fp=998.html" title="3:16 pm" rel="bookmark"><time class="entry-date" datetime="2015-08-03T15:16:28+00:00">August 3, 2015</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../../../author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
 	</article><!-- #post -->
 		<nav id="nav-below" class="navigation" role="navigation">
 			<h3 class="assistive-text">Post navigation</h3>
@@ -615,7 +711,8 @@ body.custom-background { background-color: #e6e6e6; }
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
-			<li><a href='../../../date/2017/03.html' title='March 2017'>March 2017</a></li>
+			<li><a href='../../../date/2017/04.html' title='April 2017'>April 2017</a></li>
+	<li><a href='../../../date/2017/03.html' title='March 2017'>March 2017</a></li>
 	<li><a href='../../../date/2017/02.html' title='February 2017'>February 2017</a></li>
 	<li><a href='../../../date/2017/01.html' title='January 2017'>January 2017</a></li>
 	<li><a href='../../../date/2016/12.html' title='December 2016'>December 2016</a></li>

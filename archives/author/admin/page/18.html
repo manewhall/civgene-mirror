@@ -19,12 +19,77 @@
 <![endif]-->
 
 <!-- All in One SEO Pack 2.3.12.2.1 by Michael Torbert of Semper Fi Web Design[300,356] -->
+<link rel="author" href="http://civgene" />
 <meta name="robots" content="noindex,follow" />
 <link rel='prev' href='17.html' />
 <link rel='next' href='19.html' />
 
 <link rel="canonical" href="18.html" />
-<!-- /all in one seo pack -->
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-60178840-1', 'auto');
+			
+			ga('send', 'pageview');
+			</script>
+					<script type="text/javascript">
+						function recordOutboundLink(link, category, action) {
+														ga('send', 'event', category, action);
+														if (link.target == '_blank') return true;
+							setTimeout('document.location = "' + link.href + '"', 100);
+							return false;
+						}
+						/* use regular Javascript for this */
+						function getAttr(ele, attr) {
+							var result = (ele.getAttribute && ele.getAttribute(attr)) || null;
+							if (!result) {
+								var attrs = ele.attributes;
+								var length = attrs.length;
+								for (var i = 0; i < length; i++)
+									if (attr[i].nodeName === attr) result = attr[i].nodeValue;
+							}
+							return result;
+						}
+
+						function aiosp_addLoadEvent(func) {
+							var oldonload = window.onload;
+							if (typeof window.onload != 'function') {
+								window.onload = func;
+							} else {
+								window.onload = function () {
+									if (oldonload) {
+										oldonload();
+									}
+									func();
+								}
+							}
+						}
+
+						function aiosp_addEvent(element, evnt, funct) {
+							if (element.attachEvent)
+								return element.attachEvent('on' + evnt, funct);
+							else
+								return element.addEventListener(evnt, funct, false);
+						}
+
+						aiosp_addLoadEvent(function () {
+							var links = document.getElementsByTagName('a');
+							for (var x = 0; x < links.length; x++) {
+								if (typeof links[x] == 'undefined') continue;
+								aiosp_addEvent(links[x], 'onclick', function () {
+									var mydomain = new RegExp(document.domain, 'i');
+									href = getAttr(this, 'href');
+									if (href && href.toLowerCase().indexOf('http') === 0 && !mydomain.test(href)) {
+										recordOutboundLink(this, 'Outbound Links', href);
+									}
+								});
+							}
+						});
+					</script>
+					<!-- /all in one seo pack -->
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Feed" href="../../../../feed.html" />
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Comments Feed" href="../../../../comments/feed.html" />
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Posts by Matthew Newhall Feed" href="../feed.html" />
@@ -33,6 +98,9 @@
 <!--[if lt IE 9]>
 <link rel='stylesheet' id='twentytwelve-ie-css'  href='http://civgene.matthewnewhall.com/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
 <![endif]-->
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='../../../../wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js%3Fver=1.6.1'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../../xmlrpc.php%3Frsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://civgene.matthewnewhall.com/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 3.6.1" />
@@ -49,7 +117,20 @@
 </style>
 <!-- End of Simple Social Buttons -->
 
-	<style type="text/css" id="twentytwelve-header-css">
+
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script data-cfasync="false" type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	dataLayer.push({"pagePostType":"post","pagePostType2":"author-post","pagePostAuthor":""});
+</script>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KKC6N3B');</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by DuracellTomi -->	<style type="text/css" id="twentytwelve-header-css">
 			.site-header h1 a,
 		.site-header h2 {
 			color: #474747;
@@ -60,7 +141,11 @@ body.custom-background { background-color: #e6e6e6; }
 </style>
 </head> <!-- place holder for optional banner ad --> <div align=center><FONT color=#FF0000 size=5>Static  Mirror</FONT> of <a href="http://civgene.matthewnewhall.com/">http://civgene.matthewnewhall.com/</a></div>
 
-<body class="archive paged author author-admin author-1 custom-background paged-18 author-paged-18 custom-font-enabled single-author">
+<body class="archive paged author author-admin author-1 custom-background paged-18 author-paged-18 custom-font-enabled single-author ">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-KKC6N3B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><br style="display:none;">
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
@@ -95,6 +180,34 @@ body.custom-background { background-color: #e6e6e6; }
 	
 			
 										
+	<article id="post-92" class="post-92 post type-post status-publish format-standard hentry category-childhood category-genetics category-psychology category-psychopaths category-screening category-society category-study category-subconscious category-violence category-warrior-gene">
+				<header class="entry-header">
+									<h1 class="entry-title">
+				<a href="../../../../index.html%3Fp=92.html" rel="bookmark">Interesting article debunking the warrior gene</a>
+			</h1>
+										<div class="comments-link">
+					<a href="../../../../index.html%3Fp=92.html#respond" title="Comment on Interesting article debunking the warrior gene"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p style="text-align: center;"><a href="../../../../wp-content/uploads/2013/10/club.jpg"><img class="alignnone size-full wp-image-94" alt="club" src="../../../../wp-content/uploads/2013/10/club.jpg" width="300" height="200" /></a></p>
+<p>Googled around a bit and found an article trashing the warrior gene as inconclusive.   Unfortunately it partly does so by saying attributing any behavior to a particular gene is too simple to be true.  In my defense &#8216;Ancient Breed&#8217; and the civilization gene stems from social/economic observation not genetics, AND I have contended that it could be a small group of rapid succession mutations (though I doubt it.)</p>
+<p><a title="http://www.genome.duke.edu/seminars/journal-club/documents/Yong2010.pdf" href="http://www.genome.duke.edu/seminars/journal-club/documents/Yong2010.pdf">http://www.genome.duke.edu/seminars/journal-club/documents/Yong2010.pdf</a></p>
+<p>This is the really interesting part.  I have contended that while conflict actually helps empaths grow (by building useful emotional metadata) that it damages psychopaths.  Particularly if they can&#8217;t get relief from their negative environment so they can quietly build their logical understanding of what just happened.    That logical growth, and the explosion that can follow the lack of it,  is why psychopaths need social isolation.  The kind of social isolation like you can obtain living like a hermit or that you can buy with vast wealth.</p>
+<p>Now that I&#8217;ve front loaded the hell out of you, here is the quote.</p>
+<p>&#8220;A third of these men carried the MAOA-L variant.  Now, aged 26, this group was indeed more likely than the others to have developed antisocial disorders and violent behavior &#8211; but only if they had been poorly treated or abused as children.  Moffitt and Caspi concluded that the so-called &#8220;warrior gene&#8221; affects a child&#8217;s sensitivity to stress and trauma at an early age.  Childhood trauma &#8220;activates&#8221; bad behavior, but in a caring environment it&#8217;s effect is quashed.&#8221;</p>
+<p>Here was Ed Yong&#8217;s blog in discover<br />
+<a title=" http://blogs.discovermagazine.com/notrocketscience/" href=" http://blogs.discovermagazine.com/notrocketscience/"> http://blogs.discovermagazine.com/notrocketscience/</a></p>
+<p>And here it is in nat geo (which seems broken today)  <a title="http://phenomena.nationalgeographic.com/blog/not-exactly-rocket-science/" href="http://phenomena.nationalgeographic.com/blog/not-exactly-rocket-science/">http://phenomena.nationalgeographic.com/blog/not-exactly-rocket-science/</a></p>
+<p>And the permalink to the article (PAYWALL)<br />
+<a title=" http://www.newscientist.com/article/mg20627557.300-dangerous-dna-the-truth-about-the-warrior-gene.html" href=" http://www.newscientist.com/article/mg20627557.300-dangerous-dna-the-truth-about-the-warrior-gene.html"> http://www.newscientist.com/article/mg20627557.300-dangerous-dna-the-truth-about-the-warrior-gene.html</a></p>
+<p>&nbsp;</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="../../../category/psychology/childhood/index.html" title="View all posts in childhood" rel="category tag">childhood</a>, <a href="../../../category/society/science/genetics/index.html" title="View all posts in genetics" rel="category tag">genetics</a>, <a href="../../../category/psychology/index.html" title="View all posts in PSYCHOLOGY" rel="category tag">PSYCHOLOGY</a>, <a href="../../../category/psychopaths/index.html" title="View all posts in PSYCHOPATHS" rel="category tag">PSYCHOPATHS</a>, <a href="../../../category/psychopaths/defense-against-psychopaths/screening/index.html" title="View all posts in screening" rel="category tag">screening</a>, <a href="../../../category/society/index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a>, <a href="../../../category/society/science/study/index.html" title="View all posts in study" rel="category tag">study</a>, <a href="../../../category/empaths/metamind/subconscious/index.html" title="View all posts in subconscious" rel="category tag">subconscious</a>, <a href="../../../category/society/violence/index.html" title="View all posts in violence" rel="category tag">violence</a>, <a href="../../../category/society/science/genetics/warrior-gene/index.php.html" title="View all posts in warrior gene" rel="category tag">warrior gene</a> on <a href="../../../../index.html%3Fp=92.html" title="7:13 pm" rel="bookmark"><time class="entry-date" datetime="2013-10-04T19:13:55+00:00">October 4, 2013</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
 	<article id="post-83" class="post-83 post type-post status-publish format-standard hentry category-childhood category-conscience category-economics category-empaths category-genetics category-know-yourself category-propaganda category-psychology category-psychopaths category-screening category-society category-specialization category-subconscious">
 				<header class="entry-header">
 									<h1 class="entry-title">
@@ -262,31 +375,6 @@ body.custom-background { background-color: #e6e6e6; }
 		
 		<footer class="entry-meta">
 			This entry was posted in <a href="../../../category/psychology/childhood/index.html" title="View all posts in childhood" rel="category tag">childhood</a>, <a href="../../../category/empaths/metamind/conscience/index.html" title="View all posts in conscience" rel="category tag">conscience</a>, <a href="../../../category/empaths/index.html" title="View all posts in EMPATHS" rel="category tag">EMPATHS</a>, <a href="../../../category/entertainment/index.html" title="View all posts in ENTERTAINMENT" rel="category tag">ENTERTAINMENT</a>, <a href="../../../category/psychology/index.html" title="View all posts in PSYCHOLOGY" rel="category tag">PSYCHOLOGY</a>, <a href="../../../category/psychopaths/index.html" title="View all posts in PSYCHOPATHS" rel="category tag">PSYCHOPATHS</a>, <a href="../../../category/society/index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a> on <a href="../../../../index.html%3Fp=48.html" title="4:30 pm" rel="bookmark"><time class="entry-date" datetime="2013-09-29T16:30:58+00:00">September 29, 2013</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
-	</article><!-- #post -->
-							
-	<article id="post-42" class="post-42 post type-post status-publish format-standard hentry category-childhood category-conscience category-defense-against-a-psychopath category-emotional-triggers category-empaths category-genetics category-know-yourself category-psychology category-psychopaths category-society category-subconscious">
-				<header class="entry-header">
-									<h1 class="entry-title">
-				<a href="../../../../index.html%3Fp=42.html" rel="bookmark">Help!  There is a psychopath in my life.</a>
-			</h1>
-										<div class="comments-link">
-					<a href="../../../../index.html%3Fp=42.html#comments" title="Comment on Help!  There is a psychopath in my life.">2 Replies</a>				</div><!-- .comments-link -->
-					</header><!-- .entry-header -->
-
-				<div class="entry-content">
-			<p style="text-align: center;"><a href="../../../../wp-content/uploads/2013/09/scream.jpeg"><img class="alignnone size-full wp-image-45" alt="scream" src="../../../../wp-content/uploads/2013/09/scream.jpeg" width="199" height="253" /></a></p>
-<p>There is a reasonable chance you have landed here because you were searching personal solutions.  The first thing is don&#8217;t panic.  Seriously, that can make things worse.  If they really are a psychopath calling them on it will not cause some sort of guilt trip.  Even if they could change they will not feel bad enough (or feel bad at all) to change their behaviour for your benefit.</p>
-<p>The first thing you need to do is see a psychologist.  No this does not mean it&#8217;s your fault or that you did anything wrong or failed in any way.  They can really help.  Psychologists help you map out your emotional reactions.  Everybody is different and it can be tricky for an untrained person to suspend their own emotional reactions when discussing unconscionable acts.  Psychologists ARE trained in this hence their advantage in helping you <a title="know yourself." href="../../../../index.html%3Fp=32.html">know yourself.</a></p>
-<p>Please know that you are not doomed if you are isolated if you can&#8217;t afford or reach one.  Your path may just be more difficult.  After a good college try you can skip to the next step.</p>
-<p>Read <a title="Recommended Reading" href="../../../../index.html%3Fpage_id=39.html">Without Conscience, and Puzzling People.</a>  Seriously it&#8217;s important that you read them for the next step.  Both of these books detail extensively what psychopaths are and how they work.  Both go so far as to provide tests to determine if a particular person is a psychopath.  I would use Sheridan&#8217;s (Puzzling People) 1-5 scale with both Sheridan&#8217;s and Hare&#8217;s (Without Conscience)  psychopath tests.  Do not just rate the psychopath.  Apply the scale to the closest people to you in you life, including at least a couple of people you are sure are not psychopaths and yourself.  This is important as a reality check.</p>
-<p>Be warned you may be surprised at who turns out to be a psychopath.  All people can project their own flaws on others.  Psychopaths use this technique heavily to stay hidden.  Share the results with your psychologist.  They will likely NOT confirm your assessment of the psychopath (no matter how obvious or accurate the test result is) but that does not mean it is not valid.  They have a moral obligation not to assess anyone that they don&#8217;t directly spend time with.    What they can do is help you figure out answers to particular questions.   They can help answer a question like &#8216;does aunt Petunia&#8217;s persona change when she becomes intensely angry at a third party and switches back again.&#8217;</p>
-<p>Once you have completed the tests you will all the pieces in place you need to take action.  You will know who the psychopaths in your life are, and you will have  the moral support you need.   At this point you don&#8217;t need to get fancy.  Come up with a plan to quickly shut them out, both of power over your material world, and influence over your personal feelings.    If you can just walk away, do.  In the more likely event that you can&#8217;t you can&#8217;t because of a marriage or children or family, begin a regimen of shunning.</p>
-<p>Shunning is simple and effective.  It essentially is turning your back on someone socially.   Just don&#8217;t talk to them anymore.   If you must you can practice basic manners (hello, goodbye, bless you), but keep it to a minimum.  Yes of no answers and a quick exit are called for if they (themselves or through someone they influence) try to force you into a conversation.  That&#8217;s it.  Sooner or later, they will just fall off and move on.  Keep track of the things they say to try to force you back into a destructive relationship with them.  These may be emotional triggers (weaknesses) of yours.</p>
-<p>Good luck, but if you truly follow these steps you won&#8217;t need it.  <img src='http://civgene.matthewnewhall.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
-					</div><!-- .entry-content -->
-		
-		<footer class="entry-meta">
-			This entry was posted in <a href="../../../category/psychology/childhood/index.html" title="View all posts in childhood" rel="category tag">childhood</a>, <a href="../../../category/empaths/metamind/conscience/index.html" title="View all posts in conscience" rel="category tag">conscience</a>, <a href="../../../category/psychopaths/defense-against-a-psychopath/index.html" title="View all posts in defense against a psychopath" rel="category tag">defense against a psychopath</a>, <a href="../../../category/psychology/emotional-triggers/index.html" title="View all posts in emotional triggers" rel="category tag">emotional triggers</a>, <a href="../../../category/empaths/index.html" title="View all posts in EMPATHS" rel="category tag">EMPATHS</a>, <a href="../../../category/society/science/genetics/index.html" title="View all posts in genetics" rel="category tag">genetics</a>, <a href="../../../category/empaths/know-yourself/index.html" title="View all posts in know yourself" rel="category tag">know yourself</a>, <a href="../../../category/psychology/index.html" title="View all posts in PSYCHOLOGY" rel="category tag">PSYCHOLOGY</a>, <a href="../../../category/psychopaths/index.html" title="View all posts in PSYCHOPATHS" rel="category tag">PSYCHOPATHS</a>, <a href="../../../category/society/index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a>, <a href="../../../category/empaths/metamind/subconscious/index.html" title="View all posts in subconscious" rel="category tag">subconscious</a> on <a href="../../../../index.html%3Fp=42.html" title="5:55 pm" rel="bookmark"><time class="entry-date" datetime="2013-09-28T17:55:08+00:00">September 28, 2013</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
 	</article><!-- #post -->
 			
 					<nav id="nav-below" class="navigation" role="navigation">
@@ -552,7 +640,8 @@ body.custom-background { background-color: #e6e6e6; }
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
-			<li><a href='../../../date/2017/03.html' title='March 2017'>March 2017</a></li>
+			<li><a href='../../../date/2017/04.html' title='April 2017'>April 2017</a></li>
+	<li><a href='../../../date/2017/03.html' title='March 2017'>March 2017</a></li>
 	<li><a href='../../../date/2017/02.html' title='February 2017'>February 2017</a></li>
 	<li><a href='../../../date/2017/01.html' title='January 2017'>January 2017</a></li>
 	<li><a href='../../../date/2016/12.html' title='December 2016'>December 2016</a></li>

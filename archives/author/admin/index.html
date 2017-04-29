@@ -19,11 +19,76 @@
 <![endif]-->
 
 <!-- All in One SEO Pack 2.3.12.2.1 by Michael Torbert of Semper Fi Web Design[300,346] -->
+<link rel="author" href="http://civgene" />
 <meta name="robots" content="noindex,follow" />
 <link rel='next' href='page/2.html' />
 
 <link rel="canonical" href="index.html" />
-<!-- /all in one seo pack -->
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-60178840-1', 'auto');
+			
+			ga('send', 'pageview');
+			</script>
+					<script type="text/javascript">
+						function recordOutboundLink(link, category, action) {
+														ga('send', 'event', category, action);
+														if (link.target == '_blank') return true;
+							setTimeout('document.location = "' + link.href + '"', 100);
+							return false;
+						}
+						/* use regular Javascript for this */
+						function getAttr(ele, attr) {
+							var result = (ele.getAttribute && ele.getAttribute(attr)) || null;
+							if (!result) {
+								var attrs = ele.attributes;
+								var length = attrs.length;
+								for (var i = 0; i < length; i++)
+									if (attr[i].nodeName === attr) result = attr[i].nodeValue;
+							}
+							return result;
+						}
+
+						function aiosp_addLoadEvent(func) {
+							var oldonload = window.onload;
+							if (typeof window.onload != 'function') {
+								window.onload = func;
+							} else {
+								window.onload = function () {
+									if (oldonload) {
+										oldonload();
+									}
+									func();
+								}
+							}
+						}
+
+						function aiosp_addEvent(element, evnt, funct) {
+							if (element.attachEvent)
+								return element.attachEvent('on' + evnt, funct);
+							else
+								return element.addEventListener(evnt, funct, false);
+						}
+
+						aiosp_addLoadEvent(function () {
+							var links = document.getElementsByTagName('a');
+							for (var x = 0; x < links.length; x++) {
+								if (typeof links[x] == 'undefined') continue;
+								aiosp_addEvent(links[x], 'onclick', function () {
+									var mydomain = new RegExp(document.domain, 'i');
+									href = getAttr(this, 'href');
+									if (href && href.toLowerCase().indexOf('http') === 0 && !mydomain.test(href)) {
+										recordOutboundLink(this, 'Outbound Links', href);
+									}
+								});
+							}
+						});
+					</script>
+					<!-- /all in one seo pack -->
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Feed" href="../../../feed.html" />
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Comments Feed" href="../../../comments/feed.html" />
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Posts by Matthew Newhall Feed" href="feed.html" />
@@ -32,6 +97,9 @@
 <!--[if lt IE 9]>
 <link rel='stylesheet' id='twentytwelve-ie-css'  href='http://civgene.matthewnewhall.com/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
 <![endif]-->
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='../../../wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js%3Fver=1.6.1'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../xmlrpc.php%3Frsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://civgene.matthewnewhall.com/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 3.6.1" />
@@ -48,7 +116,20 @@
 </style>
 <!-- End of Simple Social Buttons -->
 
-	<style type="text/css" id="twentytwelve-header-css">
+
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script data-cfasync="false" type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	dataLayer.push({"pagePostType":"post","pagePostType2":"author-post","pagePostAuthor":""});
+</script>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KKC6N3B');</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by DuracellTomi -->	<style type="text/css" id="twentytwelve-header-css">
 			.site-header h1 a,
 		.site-header h2 {
 			color: #474747;
@@ -59,7 +140,11 @@ body.custom-background { background-color: #e6e6e6; }
 </style>
 </head> <!-- place holder for optional banner ad --> <div align=center><FONT color=#FF0000 size=5>Static  Mirror</FONT> of <a href="http://civgene.matthewnewhall.com/">http://civgene.matthewnewhall.com/</a></div>
 
-<body class="archive author author-admin author-1 custom-background custom-font-enabled single-author">
+<body class="archive author author-admin author-1 custom-background custom-font-enabled single-author ">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-KKC6N3B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><br style="display:none;">
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
@@ -94,6 +179,27 @@ body.custom-background { background-color: #e6e6e6; }
 	
 			
 										
+	<article id="post-1437" class="post-1437 post type-post status-publish format-standard hentry category-helping-out category-shameless-self-promotion category-society category-website">
+				<header class="entry-header">
+									<h1 class="entry-title">
+				<a href="../../../index.html%3Fp=1437.html" rel="bookmark">Website updates</a>
+			</h1>
+										<div class="comments-link">
+					<a href="../../../index.html%3Fp=1437.html#respond" title="Comment on Website updates"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><a href="../../../wp-content/uploads/2017/04/google.png"><img class="size-medium wp-image-1438 aligncenter" alt="google" src="../../../wp-content/uploads/2017/04/google-300x156.png" width="300" height="156" /></a></p>
+<p>Finally the git/mirror code is fixed and should once again have the latest copy of the site.  Please consider helping civgene and mirroring it.    See <a href="../../../static-mirrors.1.html">this page</a> for details.</p>
+<p>In addition I have done some things to improve the sites SEO (appeasing search engines).   Including google analytics updates, more search engine hints, and a shorter main page.  If you have any trouble or if a page or feature is missing, please let me know at comments@civgene.matthewnewhall.com</p>
+<p>Keeping your papers in order with Google is quickly becoming a full time job, but hopefully civgene can squeak by the &#8216;consumer orientated&#8217; checkpoints once again.</p>
+<p>Next up a worthy cause, enycryption (SSL.)  More civgene soon.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="../../category/helping-out/index.html" title="View all posts in HELPING OUT" rel="category tag">HELPING OUT</a>, <a href="../../category/helping-out/shameless-self-promotion/index.html" title="View all posts in shameless self promotion" rel="category tag">shameless self promotion</a>, <a href="../../category/society/index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a>, <a href="../../category/helping-out/website/index.html" title="View all posts in website" rel="category tag">website</a> on <a href="../../../index.html%3Fp=1437.html" title="8:38 pm" rel="bookmark"><time class="entry-date" datetime="2017-04-21T20:38:21+00:00">April 21, 2017</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
 	<article id="post-1429" class="post-1429 post type-post status-publish format-standard hentry category-aspd category-civilization-gene category-collapse category-compound-emotions category-conscience category-cult category-defense-against-a-psychopath category-defense-against-psychopaths category-distribution-party category-empaths category-faith category-genetics category-imagination category-legal-complexity category-logic category-metamind category-mri category-multiple-personality-disorder category-narcissist category-psychology category-psychopaths category-reason category-religion category-science category-society category-sociopath category-study category-subconscious category-trust category-type-one-civilization category-wants-abilities-limits">
 				<header class="entry-header">
 									<h1 class="entry-title">
@@ -301,40 +407,6 @@ body.custom-background { background-color: #e6e6e6; }
 		
 		<footer class="entry-meta">
 			This entry was posted in <a href="../../category/psychopaths/cult/index.php.html" title="View all posts in cult" rel="category tag">cult</a>, <a href="../../category/psychopaths/defense-against-psychopaths/index.html" title="View all posts in defense against psychopaths" rel="category tag">defense against psychopaths</a>, <a href="../../category/empaths/economics/index.html" title="View all posts in economics" rel="category tag">economics</a>, <a href="../../category/empaths/economics/economy-of-scale/index.html" title="View all posts in economy of scale" rel="category tag">economy of scale</a>, <a href="../../category/empaths/index.html" title="View all posts in EMPATHS" rel="category tag">EMPATHS</a>, <a href="../../category/empaths/know-yourself/faith/index.html" title="View all posts in faith" rel="category tag">faith</a>, <a href="../../category/empaths/metamind/imagination/index.php.html" title="View all posts in imagination" rel="category tag">imagination</a>, <a href="../../category/empaths/know-yourself/index.html" title="View all posts in know yourself" rel="category tag">know yourself</a>, <a href="../../category/empaths/know-yourself/reason/rationalization/index.html" title="View all posts in rationalization" rel="category tag">rationalization</a>, <a href="../../category/empaths/trust/index.html" title="View all posts in trust" rel="category tag">trust</a> on <a href="../../../index.html%3Fp=1375.html" title="4:45 pm" rel="bookmark"><time class="entry-date" datetime="2017-01-05T16:45:20+00:00">January 5, 2017</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
-	</article><!-- #post -->
-							
-	<article id="post-1359" class="post-1359 post type-post status-publish format-standard hentry category-computer-science category-currency category-defense-against-a-psychopath category-defense-against-psychopaths category-democracy category-empaths category-government category-law-enforcement category-legal-distribution category-monarchy category-natural-law category-proto-psychopaths category-psychopaths category-republic category-science category-society category-spies category-type-one-civilization">
-				<header class="entry-header">
-									<h1 class="entry-title">
-				<a href="../../../index.html%3Fp=1359.html" rel="bookmark">The end of all republics</a>
-			</h1>
-										<div class="comments-link">
-					<a href="../../../index.html%3Fp=1359.html#comments" title="Comment on The end of all republics">1 Reply</a>				</div><!-- .comments-link -->
-					</header><!-- .entry-header -->
-
-				<div class="entry-content">
-			<p><a href="../../../wp-content/uploads/2016/12/there.jpeg"><img class="size-medium wp-image-1361 alignleft" alt="there" src="../../../wp-content/uploads/2016/12/there.jpeg" width="273" height="185" /></a><a href="../../../wp-content/uploads/2016/12/gone.jpg"><img class="alignnone size-medium wp-image-1360" alt="gone" src="../../../wp-content/uploads/2016/12/gone-300x205.jpg" width="300" height="205" /></a></p>
-<p>The words are hard to find when discussing the chaos in the 2016 presidential election in the <a title="Is the United States government a psychopath trap?" href="../../../index.html%3Fp=132.html" target="_blank">psychopath trap</a> known as the United States government.  People, even both parties subconsciously captive <a title="Is conspiracy theory useful?" href="../../../index.html%3Fp=1297.html" target="_blank">proto-psychopaths</a>, realize that something huge has happened, even if they can&#8217;t determine what.  I think I&#8217;ve sorted it out.</p>
-<p>I noticed that cyber-security specialists, for the moment, seem to fall almost completely on the statist point on the political compass.  People of all political affiliations group around a single point of view.  That cryptographicly signed, leaked emails, must be ignored.  A point a view that without it&#8217;s massive scope and current context would ever have been proffered by even a significant minority of them a mere six months ago.  Today It dawned on my rickety brain why.  They are fighting the leading edge of a trend that changes their career path.  Facing their own obsolescence.</p>
-<p>I am not talking about the cyber security analyst at large trying to harden network structures against attack and limit damage when that fails.  I&#8217;m talking specifically about internet based evidence gatherers.  Internet cops.  Specialists of formal investigation and the resulting digital custody chains.  In one long mathematically indisputable batch of emails the ability of LEOs to have any effect, or to be effective, died.</p>
-<h3>The robots are coming and they are from Wikileaks.</h3>
-<p>Lets talk some math.  DKIM is a method of signing an email.  The entire thing including the header (sender, postmark and return address).   Some of the wikileaks emails are signed by Gmail with 2048 bit encryption.  Odds that the 2048 bit DKIM encryption signed emails have been altered is roughly 1 in 64 trillion.  This may just seem like a really big number to you until you realize this number represents the biggest number of any evidence chain.  The BEST case (the best tests and samples) for DNA being incorrect is 1 in 20 billion.  Usually it&#8217;s more like 1 in 10 million with more realistic samples, genetic target and affordable testing.  Forget the physical evidence point of view.  With a fatal car accident every hour in the United States (for example) there is a 1 in 300 million chance any particular physical sample is corrupted after being onboard during a fatal car crash.</p>
-<p>Why does this matter?  Because the most reliable method of written evidence delivery, can now be sent from a random, anonymous, source on the Internet.  Police, even international spies, need not apply.  In addition, a corrupt government can no longer forge statistically significant contrary evidence in defense of a corrupt government.</p>
-<p>The technology is now proven that it is no longer in the the interest of people to hire expensive, flawed LEOs, but instead insist that their governments just use DKIM for all digital communications.  Chain of custody included.  Cybersecurity custody professionals, perhaps subconsciously, have been protecting their own employment prospects from the <a title="Civgene presents simple effective solutions to AI" href="../../../index.html%3Fp=1197.html" target="_blank">automation wave</a>.</p>
-<h3>So when do all the republics die?</h3>
-<p>If citizens had correct conceptual understanding of their own societies, that would probably NOT happen.  Unfortunately that is not the case.  Several theories about psychopaths have become part or near fact since the 1970s, coming as close as psychology ever does to hard science.   They are largely considered to be 1-3% of the population, are attracted to wealth and power, are both ruthless and incurable, and are the highest functioning mental illness.  Simply put they are attracted to corrupt opportunities of government power in the psychopath trap.  They become gridlocked in that trap as career politicians, winning small victories while calculating risks from many blackmails from their peers.  It&#8217;s dirty, and ruthless, and law is created and enforced like sausage is made.  In unappetizing fashion.</p>
-<p>In a world where psychopaths are fact, if you are foolish enough to think you have a &#8216;team&#8217; in this fight, you probably have no idea how it works.</p>
-<p>When countries, outsider candidates or even random citizens can introduce evidence with a better chain of custody than even the very best evidence the police for a country can produce, it throws the psychopath trap in disarray.  Despicably maintained but carefully balanced power, suddenly shifts as LEOs suddenly pull cornerstones from their mooring.  This, sometimes, is why they protest enforcing the law.  Like pulling a rotten tooth from the mouth, it&#8217;s a grotesque and unnerving, if necessary job.</p>
-<p>It is entirely possible that a political and psychopathic union may form during lulls in evidentiary activity.  If enough time passes without a leak or a whistleblower, they may temporarily stabilize key support and convert the republic into some variation of dictatorship.  This is where enlightened countries may be entirely lost to tyranny.  This is where stupid psychopaths below the top rung do anything to save their own skin.  There is justice among the horror as it won&#8217;t work for most.</p>
-<p>Now that this technology exists (it need never be &#8216;approved&#8217; to be effective) and the purge has begun, it is in the interest of insiders, even the dirtiest psychopaths, to both flee and keep the signed leaks coming.  This is the signal that the trio of psychopath choice (double down, defect and die) only has one option left, defect.  This is because dictatorships have far fewer key supporters, so most key political positions will be eliminated.  With the leading indications of their internal enforcement methods coming to light, it&#8217;s clear that many if not all key supporters will be hunted and/or executed if they do not qualify for the short list of required keys.  Psychopaths don&#8217;t do self sacrifice.  He who panics first, panics best.  A person with an uncaptured built in risk engine (the conscience) would know that.  The smartest psychopaths should keep council with them.</p>
-<p>Republics that proffer law and order without at least a superior custodial track for cryptographically signed communications will be known as democratic in name only.  A rapidly fading role awaits them on the global stage.</p>
-<h3>The republic reborn</h3>
-<p>If you are lucky enough to live in one of the republics that remains representative during this process, what will you be given?   A technocratic republic for sure.  One where hierarchy is not just casually but formally mistrusted.  Where communications from officials in office are mandated to DKIM verification.  A system where <a title="How does legal distribution work?" href="../../../index.html%3Fp=1042.html" target="_blank">legal distribution</a> looms over the would be corrupt secret deals in all new law.  A place where voters would vote using the spoiler and gerrymandering free approval voting on a blockchain, verifiable from anywhere by private key, but who&#8217;s anonymity would be protected by both technology and law.  A system where <a title="Who is in contol?  Banking vs new technology" href="../../../index.html%3Fp=1131.html" target="_blank">debt is allowed</a> but all currency and money is free in return.  A system where free trade could never include cessation of human rights in the trade.  A system where a <a title="Type One Civilization" href="../../../papers/Type-one.html" target="_blank">type one civilization</a> may finally be possible.</p>
-<p>Until then it&#8217;s simply an ugly waiting game.  Patience, luck and work.  A slow motion mudslide pushing away establishment key supporters.  Until the first time hidden allies don&#8217;t scurry away when a stone is moved.  Blackmail interlock cascade exhaustion.  People will say, &#8216;lets see what went wrong&#8217;, but it&#8217;s already obvious.  Secret alliances plotting against the public at large.  In a word, corruption, intentionally placed in places the public can&#8217;t reach it.  Placed by people, often psychopaths and their minions, who took advantage of a system that while sceptical was not sceptical enough.</p>
-					</div><!-- .entry-content -->
-		
-		<footer class="entry-meta">
-			This entry was posted in <a href="../../category/society/science/computer-science/index.php.html" title="View all posts in computer science" rel="category tag">computer science</a>, <a href="../../category/empaths/economics/currency/index.html" title="View all posts in currency" rel="category tag">currency</a>, <a href="../../category/psychopaths/defense-against-a-psychopath/index.html" title="View all posts in defense against a psychopath" rel="category tag">defense against a psychopath</a>, <a href="../../category/psychopaths/defense-against-psychopaths/index.html" title="View all posts in defense against psychopaths" rel="category tag">defense against psychopaths</a>, <a href="../../category/government/democracy/index.php.html" title="View all posts in democracy" rel="category tag">democracy</a>, <a href="../../category/empaths/index.html" title="View all posts in EMPATHS" rel="category tag">EMPATHS</a>, <a href="../../category/government/index.html" title="View all posts in GOVERNMENT" rel="category tag">GOVERNMENT</a>, <a href="../../category/government/law-enforcement/index.php.html" title="View all posts in Law Enforcement" rel="category tag">Law Enforcement</a>, <a href="../../category/psychopaths/defense-against-psychopaths/type-one-civilization/legal-distribution/index.html" title="View all posts in Legal Distribution" rel="category tag">Legal Distribution</a>, <a href="../../category/government/monarchy/index.php.html" title="View all posts in monarchy" rel="category tag">monarchy</a>, <a href="../../category/empaths/metamind/natural-law/index.php.html" title="View all posts in natural law" rel="category tag">natural law</a>, <a href="../../category/empaths/proto-psychopaths/index.html" title="View all posts in proto-psychopaths" rel="category tag">proto-psychopaths</a>, <a href="../../category/psychopaths/index.html" title="View all posts in PSYCHOPATHS" rel="category tag">PSYCHOPATHS</a>, <a href="../../category/government/republic/index.html" title="View all posts in republic" rel="category tag">republic</a>, <a href="../../category/society/science/index.html" title="View all posts in science" rel="category tag">science</a>, <a href="../../category/society/index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a>, <a href="../../category/government/spies/index.php.html" title="View all posts in spies" rel="category tag">spies</a>, <a href="../../category/psychopaths/defense-against-psychopaths/type-one-civilization/index.html" title="View all posts in Type One Civilization" rel="category tag">Type One Civilization</a> on <a href="../../../index.html%3Fp=1359.html" title="5:06 am" rel="bookmark"><time class="entry-date" datetime="2016-12-13T05:06:57+00:00">December 13, 2016</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
 	</article><!-- #post -->
 			
 					<nav id="nav-below" class="navigation" role="navigation">
@@ -600,7 +672,8 @@ body.custom-background { background-color: #e6e6e6; }
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
-			<li><a href='../../date/2017/03.html' title='March 2017'>March 2017</a></li>
+			<li><a href='../../date/2017/04.html' title='April 2017'>April 2017</a></li>
+	<li><a href='../../date/2017/03.html' title='March 2017'>March 2017</a></li>
 	<li><a href='../../date/2017/02.html' title='February 2017'>February 2017</a></li>
 	<li><a href='../../date/2017/01.html' title='January 2017'>January 2017</a></li>
 	<li><a href='../../date/2016/12.html' title='December 2016'>December 2016</a></li>

@@ -19,11 +19,82 @@
 <![endif]-->
 
 <!-- All in One SEO Pack 2.3.12.2.1 by Michael Torbert of Semper Fi Web Design[300,380] -->
+<link rel="author" href="http://civgene" />
+<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",		  "name": "The Civilization Gene",		  "url": "http://civgene.matthewnewhall.com/"
+        }
+</script>
 <link rel='prev' href='9.html' />
 <link rel='next' href='11.html' />
 
 <link rel="canonical" href="10.html" />
-<!-- /all in one seo pack -->
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-60178840-1', 'auto');
+			
+			ga('send', 'pageview');
+			</script>
+					<script type="text/javascript">
+						function recordOutboundLink(link, category, action) {
+														ga('send', 'event', category, action);
+														if (link.target == '_blank') return true;
+							setTimeout('document.location = "' + link.href + '"', 100);
+							return false;
+						}
+						/* use regular Javascript for this */
+						function getAttr(ele, attr) {
+							var result = (ele.getAttribute && ele.getAttribute(attr)) || null;
+							if (!result) {
+								var attrs = ele.attributes;
+								var length = attrs.length;
+								for (var i = 0; i < length; i++)
+									if (attr[i].nodeName === attr) result = attr[i].nodeValue;
+							}
+							return result;
+						}
+
+						function aiosp_addLoadEvent(func) {
+							var oldonload = window.onload;
+							if (typeof window.onload != 'function') {
+								window.onload = func;
+							} else {
+								window.onload = function () {
+									if (oldonload) {
+										oldonload();
+									}
+									func();
+								}
+							}
+						}
+
+						function aiosp_addEvent(element, evnt, funct) {
+							if (element.attachEvent)
+								return element.attachEvent('on' + evnt, funct);
+							else
+								return element.addEventListener(evnt, funct, false);
+						}
+
+						aiosp_addLoadEvent(function () {
+							var links = document.getElementsByTagName('a');
+							for (var x = 0; x < links.length; x++) {
+								if (typeof links[x] == 'undefined') continue;
+								aiosp_addEvent(links[x], 'onclick', function () {
+									var mydomain = new RegExp(document.domain, 'i');
+									href = getAttr(this, 'href');
+									if (href && href.toLowerCase().indexOf('http') === 0 && !mydomain.test(href)) {
+										recordOutboundLink(this, 'Outbound Links', href);
+									}
+								});
+							}
+						});
+					</script>
+					<!-- /all in one seo pack -->
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Feed" href="../feed.html" />
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Comments Feed" href="../comments/feed.html" />
 <link rel='stylesheet' id='twentytwelve-fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
@@ -31,6 +102,9 @@
 <!--[if lt IE 9]>
 <link rel='stylesheet' id='twentytwelve-ie-css'  href='http://civgene.matthewnewhall.com/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
 <![endif]-->
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='../wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js%3Fver=1.6.1'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php%3Frsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://civgene.matthewnewhall.com/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 3.6.1" />
@@ -47,7 +121,20 @@
 </style>
 <!-- End of Simple Social Buttons -->
 
-	<style type="text/css" id="twentytwelve-header-css">
+
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script data-cfasync="false" type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	dataLayer.push({"pagePostType":"frontpage"});
+</script>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KKC6N3B');</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by DuracellTomi -->	<style type="text/css" id="twentytwelve-header-css">
 			.site-header h1 a,
 		.site-header h2 {
 			color: #474747;
@@ -58,7 +145,11 @@ body.custom-background { background-color: #e6e6e6; }
 </style>
 </head> <!-- place holder for optional banner ad --> <div align=center><FONT color=#FF0000 size=5>Static  Mirror</FONT> of <a href="http://civgene.matthewnewhall.com/">http://civgene.matthewnewhall.com/</a></div>
 
-<body class="home blog paged custom-background paged-10 custom-font-enabled single-author">
+<body class="home blog paged custom-background paged-10 custom-font-enabled single-author ">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-KKC6N3B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><br style="display:none;">
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
@@ -79,6 +170,35 @@ body.custom-background { background-color: #e6e6e6; }
 		<div id="content" role="main">
 		
 										
+	<article id="post-531" class="post-531 post type-post status-publish format-standard hentry category-capitalism category-collapse category-conscience category-defense-against-psychopaths category-government category-masters-and-slaves category-natural-law category-psychology category-republic category-slavery category-society">
+				<header class="entry-header">
+									<h1 class="entry-title">
+				<a href="../index.html%3Fp=531.html" rel="bookmark">God and the devil.  Pencils and pens.</a>
+			</h1>
+										<div class="comments-link">
+					<a href="../index.html%3Fp=531.html#respond" title="Comment on God and the devil.  Pencils and pens."><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<div class="simplesocialbuttons">
+<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/531"></div></div>
+<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/531" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
+<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="God and the devil.  Pencils and pens." data-url="http://civgene.matthewnewhall.com/archives/531" rel="nofollow"></a></div>
+</div>
+<p style="text-align: center;"><a href="../wp-content/uploads/2014/03/good-evil.gif"><img class="alignnone size-medium wp-image-532" alt="good-evil" src="../wp-content/uploads/2014/03/good-evil-300x259.gif" width="300" height="259" /></a></p>
+<p>Sign on the dotted line, ink only please.  Forgiveness may be the way of largest religion in the world, Christianity, but certainly not of any state, democratic and free market or not.  Actions are immutable as such any legal structure will tell you.  Do the crime and you do the time.</p>
+<p>Mutability and moral relativism, considering each case based on circumstances, certainly could lead to a complete breakdown of civilization.  While most assume this as the usual cause it may be that a second population, a population of strictly amoral psychopaths, has simply <a title="Psychopaths - Ancient Breed" href="../papers/Psychopaths-ancient-breed.html">grown too large for moral agents to support</a>.  But lets pair it back and consider only strictly legal cases.  Ones where an action was reprehensible but only subject to social pressure.</p>
+<p>A few examples of this might be a 60 year old man dating an 18 year old friend of his daughters.  Or a person who intentionally drives in unusually risky way, on the worst road they can find, secretly hoping insurance will replace a car they have tired of.  How about a neighbor who lets his five dogs bark all night, every night, simply because their is no rule against it in his town.  From the strictest dictatorship, to most trusting and lax commune, there will always be those who break natural law.</p>
+<p>Good law simply codifies already accepted practice in natural law.  Of course this means that all good law has an awkward stage.  The moment before people recognize the utility in codifying it, but when society has accepted it en masse.  I noticed this recently in the case of drivers with a cell phone glued to their ear.  Only a few years ago we were clearly in an awkward stage where natural law was in full force, but penalties where not codified.  Now they are.  Ink was put to paper, and accidents due to cell phone use while driving went down.</p>
+<p>So why were the 60 year old, the regretful car owner, and keeper of the hounds not targeted?  You may argue that they were missed, but I don&#8217;t think so.  Legal penalties have a cost too.  Many legal consequences can follow you for your sentence, plus 7 years, and some others for life.  You are no longer part of many societies and at least in part the civilization, but instead a slave to it.  Uncodified natural law is collective statement against <a title="Type one civilization paper complete" href="../index.html%3Fp=353.html">trust in the mechanisms of hierarchy</a>.</p>
+<p>Here&#8217;s where the pencil and pen come in.  The pencil, the instrument of ideas.  Change, adjust, or wipe out whole pages.  It&#8217;s totally mutable.  The icon of forgiveness.  Compare this to the pen.  Every mistake, no matter how small recorded forever.  Often there is not recourse.  Sign the right paper and become the undisputed master, sign the wrong one and you are doomed to slavery.  In the worst folklore, for eternity.</p>
+<p>I&#8217;m sure you&#8217;ve heard never to sign anything without reading it first.  I&#8217;ve got something new to add to it.  Consider shunning those who favor the pen.  Both on a societal level and a personal one.  I&#8217;m not saying abandon law, but instead shun those who push new law that is not already common practice.  On a more personal level shun those who want you to commit in writing outside of your natural ways.  Be weary of those who would bring up your past errors long after forgiveness is or should be claimed.  Psychopaths love to force people into codified law.  Not primarily out of cruelty, but out of weakness.  They can not cope with not knowing who the master and who the slave is.  They have no handle on natural law, because natural law is formed by the collective conscience of a civilization.  Something they can only observe from the outside.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="../archives/category/government/capitalism/index.html" title="View all posts in capitalism" rel="category tag">capitalism</a>, <a href="../archives/category/empaths/economics/collapse/index.html" title="View all posts in collapse" rel="category tag">collapse</a>, <a href="../archives/category/empaths/metamind/conscience/index.html" title="View all posts in conscience" rel="category tag">conscience</a>, <a href="../archives/category/psychopaths/defense-against-psychopaths/index.html" title="View all posts in defense against psychopaths" rel="category tag">defense against psychopaths</a>, <a href="../archives/category/government/index.html" title="View all posts in GOVERNMENT" rel="category tag">GOVERNMENT</a>, <a href="../archives/category/psychopaths/masters-and-slaves/index.html" title="View all posts in masters and slaves" rel="category tag">masters and slaves</a>, <a href="../archives/category/empaths/metamind/natural-law/index.php.html" title="View all posts in natural law" rel="category tag">natural law</a>, <a href="../archives/category/psychology/index.html" title="View all posts in PSYCHOLOGY" rel="category tag">PSYCHOLOGY</a>, <a href="../archives/category/government/republic/index.html" title="View all posts in republic" rel="category tag">republic</a>, <a href="../archives/category/government/slavery/index.php.html" title="View all posts in slavery" rel="category tag">slavery</a>, <a href="../archives/category/society/index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a> on <a href="../index.html%3Fp=531.html" title="5:04 pm" rel="bookmark"><time class="entry-date" datetime="2014-03-06T17:04:36+00:00">March 6, 2014</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../archives/author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
 	<article id="post-526" class="post-526 post type-post status-publish format-standard hentry category-childhood category-civilization-gene category-conscience category-defense-against-psychopaths category-emotional-triggers category-empaths category-gaslighting category-genetics category-know-yourself category-metamind category-normalcy-bias category-propaganda category-psychopaths category-society category-subconscious category-type-one-civilization">
 				<header class="entry-header">
 									<h1 class="entry-title">
@@ -292,31 +412,6 @@ Now they can return to the ruthless logic of the psychopath when needed, but the
 		
 		<footer class="entry-meta">
 			This entry was posted in <a href="../archives/category/empaths/know-yourself/index.html" title="View all posts in know yourself" rel="category tag">know yourself</a>, <a href="../archives/category/helping-out/shameless-self-promotion/index.html" title="View all posts in shameless self promotion" rel="category tag">shameless self promotion</a>, <a href="../archives/category/helping-out/website/index.html" title="View all posts in website" rel="category tag">website</a> on <a href="../index.html%3Fp=476.html" title="5:31 pm" rel="bookmark"><time class="entry-date" datetime="2013-12-18T17:31:46+00:00">December 18, 2013</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../archives/author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
-	</article><!-- #post -->
-							
-	<article id="post-471" class="post-471 post type-post status-publish format-standard hentry category-website">
-				<header class="entry-header">
-									<h1 class="entry-title">
-				<a href="../index.html%3Fp=471.html" rel="bookmark">I&#8217;ll be back.</a>
-			</h1>
-										<div class="comments-link">
-					<a href="../index.html%3Fp=471.html#respond" title="Comment on I&#8217;ll be back."><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
-					</header><!-- .entry-header -->
-
-				<div class="entry-content">
-			<div class="simplesocialbuttons">
-<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/471"></div></div>
-<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/471" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
-<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="I&#8217;ll be back." data-url="http://civgene.matthewnewhall.com/archives/471" rel="nofollow"></a></div>
-</div>
-<p>&nbsp;</p>
-<p style="text-align: center;"><a href="../wp-content/uploads/2013/12/arm.jpg"><img class="alignnone size-medium wp-image-472" alt="arm" src="../wp-content/uploads/2013/12/arm-300x200.jpg" width="300" height="200" /></a></p>
-<p>&nbsp;</p>
-<p>Don&#8217;t worry I haven&#8217;t lost interest or run out of topics.    Just took a little vacation from psychopaths.  For a couple of days.</p>
-					</div><!-- .entry-content -->
-		
-		<footer class="entry-meta">
-			This entry was posted in <a href="../archives/category/helping-out/website/index.html" title="View all posts in website" rel="category tag">website</a> on <a href="../index.html%3Fp=471.html" title="5:26 am" rel="bookmark"><time class="entry-date" datetime="2013-12-06T05:26:15+00:00">December 6, 2013</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../archives/author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
 	</article><!-- #post -->
 			
 					<nav id="nav-below" class="navigation" role="navigation">
@@ -582,7 +677,8 @@ Now they can return to the ruthless logic of the psychopath when needed, but the
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
-			<li><a href='../archives/date/2017/03.html' title='March 2017'>March 2017</a></li>
+			<li><a href='../archives/date/2017/04.html' title='April 2017'>April 2017</a></li>
+	<li><a href='../archives/date/2017/03.html' title='March 2017'>March 2017</a></li>
 	<li><a href='../archives/date/2017/02.html' title='February 2017'>February 2017</a></li>
 	<li><a href='../archives/date/2017/01.html' title='January 2017'>January 2017</a></li>
 	<li><a href='../archives/date/2016/12.html' title='December 2016'>December 2016</a></li>

@@ -19,11 +19,82 @@
 <![endif]-->
 
 <!-- All in One SEO Pack 2.3.12.2.1 by Michael Torbert of Semper Fi Web Design[300,380] -->
+<link rel="author" href="http://civgene" />
+<script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",		  "name": "The Civilization Gene",		  "url": "http://civgene.matthewnewhall.com/"
+        }
+</script>
 <link rel='prev' href='15.html' />
 <link rel='next' href='17.html' />
 
 <link rel="canonical" href="16.html" />
-<!-- /all in one seo pack -->
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-60178840-1', 'auto');
+			
+			ga('send', 'pageview');
+			</script>
+					<script type="text/javascript">
+						function recordOutboundLink(link, category, action) {
+														ga('send', 'event', category, action);
+														if (link.target == '_blank') return true;
+							setTimeout('document.location = "' + link.href + '"', 100);
+							return false;
+						}
+						/* use regular Javascript for this */
+						function getAttr(ele, attr) {
+							var result = (ele.getAttribute && ele.getAttribute(attr)) || null;
+							if (!result) {
+								var attrs = ele.attributes;
+								var length = attrs.length;
+								for (var i = 0; i < length; i++)
+									if (attr[i].nodeName === attr) result = attr[i].nodeValue;
+							}
+							return result;
+						}
+
+						function aiosp_addLoadEvent(func) {
+							var oldonload = window.onload;
+							if (typeof window.onload != 'function') {
+								window.onload = func;
+							} else {
+								window.onload = function () {
+									if (oldonload) {
+										oldonload();
+									}
+									func();
+								}
+							}
+						}
+
+						function aiosp_addEvent(element, evnt, funct) {
+							if (element.attachEvent)
+								return element.attachEvent('on' + evnt, funct);
+							else
+								return element.addEventListener(evnt, funct, false);
+						}
+
+						aiosp_addLoadEvent(function () {
+							var links = document.getElementsByTagName('a');
+							for (var x = 0; x < links.length; x++) {
+								if (typeof links[x] == 'undefined') continue;
+								aiosp_addEvent(links[x], 'onclick', function () {
+									var mydomain = new RegExp(document.domain, 'i');
+									href = getAttr(this, 'href');
+									if (href && href.toLowerCase().indexOf('http') === 0 && !mydomain.test(href)) {
+										recordOutboundLink(this, 'Outbound Links', href);
+									}
+								});
+							}
+						});
+					</script>
+					<!-- /all in one seo pack -->
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Feed" href="../feed.html" />
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Comments Feed" href="../comments/feed.html" />
 <link rel='stylesheet' id='twentytwelve-fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
@@ -31,6 +102,9 @@
 <!--[if lt IE 9]>
 <link rel='stylesheet' id='twentytwelve-ie-css'  href='http://civgene.matthewnewhall.com/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
 <![endif]-->
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='../wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js%3Fver=1.6.1'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc.php%3Frsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://civgene.matthewnewhall.com/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 3.6.1" />
@@ -47,7 +121,20 @@
 </style>
 <!-- End of Simple Social Buttons -->
 
-	<style type="text/css" id="twentytwelve-header-css">
+
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script data-cfasync="false" type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	dataLayer.push({"pagePostType":"frontpage"});
+</script>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KKC6N3B');</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by DuracellTomi -->	<style type="text/css" id="twentytwelve-header-css">
 			.site-header h1 a,
 		.site-header h2 {
 			color: #474747;
@@ -58,7 +145,11 @@ body.custom-background { background-color: #e6e6e6; }
 </style>
 </head> <!-- place holder for optional banner ad --> <div align=center><FONT color=#FF0000 size=5>Static  Mirror</FONT> of <a href="http://civgene.matthewnewhall.com/">http://civgene.matthewnewhall.com/</a></div>
 
-<body class="home blog paged custom-background paged-16 custom-font-enabled single-author">
+<body class="home blog paged custom-background paged-16 custom-font-enabled single-author ">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-KKC6N3B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><br style="display:none;">
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
@@ -79,6 +170,88 @@ body.custom-background { background-color: #e6e6e6; }
 		<div id="content" role="main">
 		
 										
+	<article id="post-222" class="post-222 post type-post status-publish format-standard hentry category-childhood category-economics category-psychopaths category-trust">
+				<header class="entry-header">
+									<h1 class="entry-title">
+				<a href="../index.html%3Fp=222.html" rel="bookmark">&#8220;civilization&#8221; redefined</a>
+			</h1>
+										<div class="comments-link">
+					<a href="../index.html%3Fp=222.html#respond" title="Comment on &#8220;civilization&#8221; redefined"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<div class="simplesocialbuttons">
+<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/222"></div></div>
+<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/222" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
+<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="&#8220;civilization&#8221; redefined" data-url="http://civgene.matthewnewhall.com/archives/222" rel="nofollow"></a></div>
+</div>
+<p style="text-align: center;"><a href="../wp-content/uploads/2013/10/village2.jpg"><img class="alignnone size-medium wp-image-227" alt="village2" src="../wp-content/uploads/2013/10/village2-300x168.jpg" width="300" height="168" /></a></p>
+<p>&#8220;Civilization&#8221; like any word about the birth of humanity has multiple conflicting, self referential definitions.  In light of the Eden moment aka:  &#8216;the birth of the civilization&#8217; gene it gets much easier.</p>
+<p><span style="text-decoration: underline;">Civilization</span> &#8211; Civilization is a group of one or more societies supporting specialization.</p>
+<p>Compare this with this page, with does a decent job of spelling out all of the conflicting definitions to date. <a title="http://worldhistoryconnected.press.illinois.edu/6.3/brown.html" href="http://worldhistoryconnected.press.illinois.edu/6.3/brown.html">http://worldhistoryconnected.press.illinois.edu/6.3/brown.html</a></p>
+<p>The key to this new definition is a very specific definition of society.</p>
+<p><span style="text-decoration: underline;">Society</span> &#8211; A group applying the attributes of cooperation,intelligence,communication,trust, and life scale duration.</p>
+<p>By life scale duration I mean a portion of the life of a groups member, dividing their life into several small parts.  For a few examples, childhood, retirement, parenthood, etc.  Of course people can show an interest in a society for a short period of time, but they need to make a long term commitment to be part of it.</p>
+<p>Here is a chart showing different animals, and what kind of organizations they can form.</p>
+<div class="table-responsive"><table  style="width:100%; "  class="easy-table easy-table-default " border="0">
+<thead>
+<tr><th >Society Type</th>
+<th >Primate</th>
+<th >Canine</th>
+<th >Human(empath)</th>
+<th >Human(psychopath)</th>
+</tr>
+</thead>
+<tbody>
+<tr><td >cooperation</td>
+<td >*</td>
+<td >*</td>
+<td >*</td>
+<td >*</td>
+</tr>
+
+<tr><td >intelligence</td>
+<td >*</td>
+<td > </td>
+<td >*</td>
+<td >*</td>
+</tr>
+
+<tr><td >communication</td>
+<td >*</td>
+<td >*</td>
+<td >*</td>
+<td >*</td>
+</tr>
+
+<tr><td >trust</td>
+<td > </td>
+<td > </td>
+<td >*</td>
+<td ></td>
+</tr>
+
+<tr><td >duration</td>
+<td > *</td>
+<td >*</td>
+<td >*</td>
+<td >*</td>
+</tr>
+
+<tr><td >most complete group</td>
+<td >troop</td>
+<td >pack</td>
+<td >society</td>
+<td >alliance</td>
+</tr>
+</tbody></table></div>
+<p>A few notes.  Trust in society is an irrational to the self or selfless behaviour, benefiting others with no clear guarantee of return.  Neither submission or cooperation reflects trust.  Trust may be displayed between immediate family members, parents, children, and possibly grandparents or first cousins, this is present in too many animals to count and is separate from society.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="../archives/category/psychology/childhood/index.html" title="View all posts in childhood" rel="category tag">childhood</a>, <a href="../archives/category/empaths/economics/index.html" title="View all posts in economics" rel="category tag">economics</a>, <a href="../archives/category/psychopaths/index.html" title="View all posts in PSYCHOPATHS" rel="category tag">PSYCHOPATHS</a>, <a href="../archives/category/empaths/trust/index.html" title="View all posts in trust" rel="category tag">trust</a> on <a href="../index.html%3Fp=222.html" title="10:47 pm" rel="bookmark"><time class="entry-date" datetime="2013-10-18T22:47:54+00:00">October 18, 2013</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../archives/author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
 	<article id="post-211" class="post-211 post type-post status-publish format-standard hentry category-conscience category-counter-culture category-economics category-investment category-money category-psychopaths category-specialization category-trust">
 				<header class="entry-header">
 									<h1 class="entry-title">
@@ -268,33 +441,6 @@ body.custom-background { background-color: #e6e6e6; }
 		
 		<footer class="entry-meta">
 			This entry was posted in <a href="../archives/category/psychopaths/aspd/index.html" title="View all posts in ASPD" rel="category tag">ASPD</a>, <a href="../archives/category/empaths/metamind/compound-emotions/index.html" title="View all posts in compound emotions" rel="category tag">compound emotions</a>, <a href="../archives/category/empaths/metamind/conscience/index.html" title="View all posts in conscience" rel="category tag">conscience</a>, <a href="../archives/category/empaths/economics/index.html" title="View all posts in economics" rel="category tag">economics</a>, <a href="../archives/category/empaths/index.html" title="View all posts in EMPATHS" rel="category tag">EMPATHS</a>, <a href="../archives/category/society/science/genetics/index.html" title="View all posts in genetics" rel="category tag">genetics</a>, <a href="../archives/category/psychopaths/golden-opportunity/index.html" title="View all posts in golden opportunity" rel="category tag">golden opportunity</a>, <a href="../archives/category/empaths/metamind/index.html" title="View all posts in metamind" rel="category tag">metamind</a>, <a href="../archives/category/psychology/primary-emotions/index.php.html" title="View all posts in primary emotions" rel="category tag">primary emotions</a>, <a href="../archives/category/psychopaths/defense-against-psychopaths/propaganda/index.html" title="View all posts in propaganda" rel="category tag">propaganda</a>, <a href="../archives/category/psychology/index.html" title="View all posts in PSYCHOLOGY" rel="category tag">PSYCHOLOGY</a>, <a href="../archives/category/psychopaths/index.html" title="View all posts in PSYCHOPATHS" rel="category tag">PSYCHOPATHS</a>, <a href="../archives/category/society/index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a>, <a href="../archives/category/psychopaths/sociopath/index.html" title="View all posts in sociopath" rel="category tag">sociopath</a>, <a href="../archives/category/empaths/economics/specialization/index.html" title="View all posts in specialization" rel="category tag">specialization</a>, <a href="../archives/category/society/science/study/index.html" title="View all posts in study" rel="category tag">study</a>, <a href="../archives/category/empaths/metamind/subconscious/index.html" title="View all posts in subconscious" rel="category tag">subconscious</a>, <a href="../archives/category/psychopaths/defense-against-psychopaths/type-one-civilization/index.html" title="View all posts in Type One Civilization" rel="category tag">Type One Civilization</a>, <a href="../archives/category/society/science/genetics/warrior-gene/index.php.html" title="View all posts in warrior gene" rel="category tag">warrior gene</a>, <a href="../archives/category/helping-out/website/index.html" title="View all posts in website" rel="category tag">website</a> on <a href="../index.html%3Fp=174.html" title="9:24 pm" rel="bookmark"><time class="entry-date" datetime="2013-10-10T21:24:12+00:00">October 10, 2013</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../archives/author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
-	</article><!-- #post -->
-							
-	<article id="post-162" class="post-162 post type-post status-publish format-standard hentry category-aspd category-empaths category-entertainment category-psychology category-psychopaths category-screening category-society category-sociopath category-study category-subconscious category-type-one-civilization category-violence">
-				<header class="entry-header">
-									<h1 class="entry-title">
-				<a href="../index.html%3Fp=162.html" rel="bookmark">Fairly good summary of Hare&#8217;s work</a>
-			</h1>
-										<div class="comments-link">
-					<a href="../index.html%3Fp=162.html#respond" title="Comment on Fairly good summary of Hare&#8217;s work"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
-					</header><!-- .entry-header -->
-
-				<div class="entry-content">
-			<div class="simplesocialbuttons">
-<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/162"></div></div>
-<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/162" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
-<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="Fairly good summary of Hare&#8217;s work" data-url="http://civgene.matthewnewhall.com/archives/162" rel="nofollow"></a></div>
-</div>
-<p style="text-align: center;"><a href="../wp-content/uploads/2013/10/Vulcan.jpg"><img class="alignnone size-medium wp-image-163" alt="Vulcan" src="../wp-content/uploads/2013/10/Vulcan-300x169.jpg" width="300" height="169" /></a></p>
-<p>Found a link up on hare.org.  It&#8217;s a reprint of a magazine article.  If you want to read an article instead of a whole book to get a general idea of Robert Hare&#8217;s work, this is a good one to read.</p>
-<p><a title="http://www.hare.org/links/saturday.html" href="http://www.hare.org/links/saturday.html">http://www.hare.org/links/saturday.html</a></p>
-<p>Among many things it talks about the shelved reform plan for Canadian inmates.  Seems very much like the core idea I had for a code.  Using selfish logic instead of emotional mapping for therapy sessions.</p>
-<p>The problem of course is that you are intentionally helping them progress into a sociopath, but it will be effective simply because you are helping them leave the ego, aka:ASPD, aka:violent stage.  But compared to teaching them how to better manipulate empaths as &#8216;progress&#8217; in group therapy, it&#8217;s a major improvement.</p>
-<p>Interestingly this may be where Jeff Lindsay came up with Dexter.  Not a big leap to a &#8216;selfish&#8217; code from Hare&#8217;s prison reform system.  I also think Gene Roddenberry may have stumbled(?) onto a similar answer and expressed it with the Vulcan&#8217;s near self destruction and subsequent ruthless dedication to logic over impulse in Star Trek.</p>
-					</div><!-- .entry-content -->
-		
-		<footer class="entry-meta">
-			This entry was posted in <a href="../archives/category/psychopaths/aspd/index.html" title="View all posts in ASPD" rel="category tag">ASPD</a>, <a href="../archives/category/empaths/index.html" title="View all posts in EMPATHS" rel="category tag">EMPATHS</a>, <a href="../archives/category/entertainment/index.html" title="View all posts in ENTERTAINMENT" rel="category tag">ENTERTAINMENT</a>, <a href="../archives/category/psychology/index.html" title="View all posts in PSYCHOLOGY" rel="category tag">PSYCHOLOGY</a>, <a href="../archives/category/psychopaths/index.html" title="View all posts in PSYCHOPATHS" rel="category tag">PSYCHOPATHS</a>, <a href="../archives/category/psychopaths/defense-against-psychopaths/screening/index.html" title="View all posts in screening" rel="category tag">screening</a>, <a href="../archives/category/society/index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a>, <a href="../archives/category/psychopaths/sociopath/index.html" title="View all posts in sociopath" rel="category tag">sociopath</a>, <a href="../archives/category/society/science/study/index.html" title="View all posts in study" rel="category tag">study</a>, <a href="../archives/category/empaths/metamind/subconscious/index.html" title="View all posts in subconscious" rel="category tag">subconscious</a>, <a href="../archives/category/psychopaths/defense-against-psychopaths/type-one-civilization/index.html" title="View all posts in Type One Civilization" rel="category tag">Type One Civilization</a>, <a href="../archives/category/society/violence/index.html" title="View all posts in violence" rel="category tag">violence</a> on <a href="../index.html%3Fp=162.html" title="4:04 pm" rel="bookmark"><time class="entry-date" datetime="2013-10-10T16:04:02+00:00">October 10, 2013</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../archives/author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
 	</article><!-- #post -->
 			
 					<nav id="nav-below" class="navigation" role="navigation">
@@ -560,7 +706,8 @@ body.custom-background { background-color: #e6e6e6; }
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
-			<li><a href='../archives/date/2017/03.html' title='March 2017'>March 2017</a></li>
+			<li><a href='../archives/date/2017/04.html' title='April 2017'>April 2017</a></li>
+	<li><a href='../archives/date/2017/03.html' title='March 2017'>March 2017</a></li>
 	<li><a href='../archives/date/2017/02.html' title='February 2017'>February 2017</a></li>
 	<li><a href='../archives/date/2017/01.html' title='January 2017'>January 2017</a></li>
 	<li><a href='../archives/date/2016/12.html' title='December 2016'>December 2016</a></li>

@@ -19,11 +19,76 @@
 <![endif]-->
 
 <!-- All in One SEO Pack 2.3.12.2.1 by Michael Torbert of Semper Fi Web Design[300,338] -->
+<link rel="author" href="http://civgene" />
 <meta name="robots" content="noindex,follow" />
 <link rel='next' href='page/2.html' />
 
 <link rel="canonical" href="index.html" />
-<!-- /all in one seo pack -->
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-60178840-1', 'auto');
+			
+			ga('send', 'pageview');
+			</script>
+					<script type="text/javascript">
+						function recordOutboundLink(link, category, action) {
+														ga('send', 'event', category, action);
+														if (link.target == '_blank') return true;
+							setTimeout('document.location = "' + link.href + '"', 100);
+							return false;
+						}
+						/* use regular Javascript for this */
+						function getAttr(ele, attr) {
+							var result = (ele.getAttribute && ele.getAttribute(attr)) || null;
+							if (!result) {
+								var attrs = ele.attributes;
+								var length = attrs.length;
+								for (var i = 0; i < length; i++)
+									if (attr[i].nodeName === attr) result = attr[i].nodeValue;
+							}
+							return result;
+						}
+
+						function aiosp_addLoadEvent(func) {
+							var oldonload = window.onload;
+							if (typeof window.onload != 'function') {
+								window.onload = func;
+							} else {
+								window.onload = function () {
+									if (oldonload) {
+										oldonload();
+									}
+									func();
+								}
+							}
+						}
+
+						function aiosp_addEvent(element, evnt, funct) {
+							if (element.attachEvent)
+								return element.attachEvent('on' + evnt, funct);
+							else
+								return element.addEventListener(evnt, funct, false);
+						}
+
+						aiosp_addLoadEvent(function () {
+							var links = document.getElementsByTagName('a');
+							for (var x = 0; x < links.length; x++) {
+								if (typeof links[x] == 'undefined') continue;
+								aiosp_addEvent(links[x], 'onclick', function () {
+									var mydomain = new RegExp(document.domain, 'i');
+									href = getAttr(this, 'href');
+									if (href && href.toLowerCase().indexOf('http') === 0 && !mydomain.test(href)) {
+										recordOutboundLink(this, 'Outbound Links', href);
+									}
+								});
+							}
+						});
+					</script>
+					<!-- /all in one seo pack -->
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Feed" href="../../../feed.html" />
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; Comments Feed" href="../../../comments/feed.html" />
 <link rel="alternate" type="application/rss+xml" title="The Civilization Gene &raquo; SOCIETY Category Feed" href="feed.html" />
@@ -32,6 +97,9 @@
 <!--[if lt IE 9]>
 <link rel='stylesheet' id='twentytwelve-ie-css'  href='http://civgene.matthewnewhall.com/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
 <![endif]-->
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://civgene.matthewnewhall.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='../../../wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js%3Fver=1.6.1'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../xmlrpc.php%3Frsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://civgene.matthewnewhall.com/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 3.6.1" />
@@ -48,7 +116,20 @@
 </style>
 <!-- End of Simple Social Buttons -->
 
-	<style type="text/css" id="twentytwelve-header-css">
+
+<!-- Google Tag Manager for WordPress by DuracellTomi - http://duracelltomi.com -->
+<script data-cfasync="false" type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	dataLayer.push({"pagePostType":"post","pagePostType2":"category-post","pageCategory":["helping-out","shameless-self-promotion","society","website"]});
+</script>
+<script data-cfasync="false">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KKC6N3B');</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by DuracellTomi -->	<style type="text/css" id="twentytwelve-header-css">
 			.site-header h1 a,
 		.site-header h2 {
 			color: #474747;
@@ -59,7 +140,11 @@ body.custom-background { background-color: #e6e6e6; }
 </style>
 </head> <!-- place holder for optional banner ad --> <div align=center><FONT color=#FF0000 size=5>Static  Mirror</FONT> of <a href="http://civgene.matthewnewhall.com/">http://civgene.matthewnewhall.com/</a></div>
 
-<body class="archive category category-society category-5 custom-background custom-font-enabled single-author">
+<body class="archive category category-society category-5 custom-background custom-font-enabled single-author ">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-KKC6N3B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><br style="display:none;">
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
@@ -85,6 +170,32 @@ body.custom-background { background-color: #e6e6e6; }
 						</header><!-- .archive-header -->
 
 			
+	<article id="post-1437" class="post-1437 post type-post status-publish format-standard hentry category-helping-out category-shameless-self-promotion category-society category-website">
+				<header class="entry-header">
+									<h1 class="entry-title">
+				<a href="../../../index.html%3Fp=1437.html" rel="bookmark">Website updates</a>
+			</h1>
+										<div class="comments-link">
+					<a href="../../../index.html%3Fp=1437.html#respond" title="Comment on Website updates"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<div class="simplesocialbuttons">
+<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/1437"></div></div>
+<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/1437" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
+<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="Website updates" data-url="http://civgene.matthewnewhall.com/archives/1437" rel="nofollow"></a></div>
+</div>
+<p><a href="../../../wp-content/uploads/2017/04/google.png"><img class="size-medium wp-image-1438 aligncenter" alt="google" src="../../../wp-content/uploads/2017/04/google-300x156.png" width="300" height="156" /></a></p>
+<p>Finally the git/mirror code is fixed and should once again have the latest copy of the site.  Please consider helping civgene and mirroring it.    See <a href="../../../static-mirrors.1.html">this page</a> for details.</p>
+<p>In addition I have done some things to improve the sites SEO (appeasing search engines).   Including google analytics updates, more search engine hints, and a shorter main page.  If you have any trouble or if a page or feature is missing, please let me know at comments@civgene.matthewnewhall.com</p>
+<p>Keeping your papers in order with Google is quickly becoming a full time job, but hopefully civgene can squeak by the &#8216;consumer orientated&#8217; checkpoints once again.</p>
+<p>Next up a worthy cause, enycryption (SSL.)  More civgene soon.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="../helping-out/index.html" title="View all posts in HELPING OUT" rel="category tag">HELPING OUT</a>, <a href="../helping-out/shameless-self-promotion/index.html" title="View all posts in shameless self promotion" rel="category tag">shameless self promotion</a>, <a href="index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a>, <a href="../helping-out/website/index.html" title="View all posts in website" rel="category tag">website</a> on <a href="../../../index.html%3Fp=1437.html" title="8:38 pm" rel="bookmark"><time class="entry-date" datetime="2017-04-21T20:38:21+00:00">April 21, 2017</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../../author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
 	<article id="post-1429" class="post-1429 post type-post status-publish format-standard hentry category-aspd category-civilization-gene category-collapse category-compound-emotions category-conscience category-cult category-defense-against-a-psychopath category-defense-against-psychopaths category-distribution-party category-empaths category-faith category-genetics category-imagination category-legal-complexity category-logic category-metamind category-mri category-multiple-personality-disorder category-narcissist category-psychology category-psychopaths category-reason category-religion category-science category-society category-sociopath category-study category-subconscious category-trust category-type-one-civilization category-wants-abilities-limits">
 				<header class="entry-header">
 									<h1 class="entry-title">
@@ -325,33 +436,6 @@ body.custom-background { background-color: #e6e6e6; }
 		
 		<footer class="entry-meta">
 			This entry was posted in <a href="science/computer-science/index.php.html" title="View all posts in computer science" rel="category tag">computer science</a>, <a href="../empaths/economics/currency/index.html" title="View all posts in currency" rel="category tag">currency</a>, <a href="../psychopaths/defense-against-a-psychopath/index.html" title="View all posts in defense against a psychopath" rel="category tag">defense against a psychopath</a>, <a href="../psychopaths/defense-against-psychopaths/index.html" title="View all posts in defense against psychopaths" rel="category tag">defense against psychopaths</a>, <a href="../government/democracy/index.php.html" title="View all posts in democracy" rel="category tag">democracy</a>, <a href="../empaths/index.html" title="View all posts in EMPATHS" rel="category tag">EMPATHS</a>, <a href="../government/index.html" title="View all posts in GOVERNMENT" rel="category tag">GOVERNMENT</a>, <a href="../government/law-enforcement/index.php.html" title="View all posts in Law Enforcement" rel="category tag">Law Enforcement</a>, <a href="../psychopaths/defense-against-psychopaths/type-one-civilization/legal-distribution/index.html" title="View all posts in Legal Distribution" rel="category tag">Legal Distribution</a>, <a href="../government/monarchy/index.php.html" title="View all posts in monarchy" rel="category tag">monarchy</a>, <a href="../empaths/metamind/natural-law/index.php.html" title="View all posts in natural law" rel="category tag">natural law</a>, <a href="../empaths/proto-psychopaths/index.html" title="View all posts in proto-psychopaths" rel="category tag">proto-psychopaths</a>, <a href="../psychopaths/index.html" title="View all posts in PSYCHOPATHS" rel="category tag">PSYCHOPATHS</a>, <a href="../government/republic/index.html" title="View all posts in republic" rel="category tag">republic</a>, <a href="science/index.html" title="View all posts in science" rel="category tag">science</a>, <a href="index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a>, <a href="../government/spies/index.php.html" title="View all posts in spies" rel="category tag">spies</a>, <a href="../psychopaths/defense-against-psychopaths/type-one-civilization/index.html" title="View all posts in Type One Civilization" rel="category tag">Type One Civilization</a> on <a href="../../../index.html%3Fp=1359.html" title="5:06 am" rel="bookmark"><time class="entry-date" datetime="2016-12-13T05:06:57+00:00">December 13, 2016</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../../author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
-	</article><!-- #post -->
-
-	<article id="post-1348" class="post-1348 post type-post status-publish format-standard hentry category-counter-culture category-defense-against-psychopaths category-entertainment category-know-yourself category-metamind category-propaganda category-proto-psychopaths category-society category-subconscious category-subconscious-olympics">
-				<header class="entry-header">
-									<h1 class="entry-title">
-				<a href="../../../index.html%3Fp=1348.html" rel="bookmark">Primer on propaganda</a>
-			</h1>
-										<div class="comments-link">
-					<a href="../../../index.html%3Fp=1348.html#respond" title="Comment on Primer on propaganda"><span class="leave-reply">Leave a reply</span></a>				</div><!-- .comments-link -->
-					</header><!-- .entry-header -->
-
-				<div class="entry-content">
-			<div class="simplesocialbuttons">
-<div class="simplesocialbutton ssb-button-googleplus"><!-- Google Plus One--><div class="g-plusone" data-size="medium" data-href="http://civgene.matthewnewhall.com/archives/1348"></div></div>
-<div class="simplesocialbutton ssb-button-fblike"><!-- Facebook like--><div id="fb-root"></div><div class="fb-like" data-href="http://civgene.matthewnewhall.com/archives/1348" data-send="false" data-layout="button_count" data-show-faces="false"></div></div>
-<div class="simplesocialbutton ssb-button-twitter"><!-- Twitter--><a href="https://twitter.com/share" class="twitter-share-button" data-text="Primer on propaganda" data-url="http://civgene.matthewnewhall.com/archives/1348" rel="nofollow"></a></div>
-</div>
-<p><a href="../../../wp-content/uploads/2016/11/bk-bj.jpg"><img class="size-medium wp-image-1349 aligncenter" alt="bk-bj" src="../../../wp-content/uploads/2016/11/bk-bj-234x300.jpg" width="234" height="300" /></a></p>
-<p>&#8220;Propaganda is like rain&#8230;knowing it&#8217;s wet does not keep you dry if you&#8217;re exposed to the weather.&#8221;  &#8212; taopraxis</p>
-<p>If you master spotting propaganda can you stand in the face of it?  It seems to me the answer is &#8216;a brief while.&#8217;    Like the beginning of a rain storm, understanding wet cold drops on your skin is not useful if you don&#8217;t take cover.  Soon you&#8217;ll be soaked and shivering.</p>
-<p>Chris Martinson has won this year&#8217;s subconscious Olympics.  Not only for feeling the early drops, but warning other people to take cover.  Please read his excellent primer on propaganda and how it works.</p>
-<p><a href="https://www.peakprosperity.com/blog/103565/were-being-played">https://www.peakprosperity.com/blog/103565/were-being-played</a></p>
-<p>And once you&#8217;ve identified a media outlet as untrustworthy, please come in out of the rain.</p>
-					</div><!-- .entry-content -->
-		
-		<footer class="entry-meta">
-			This entry was posted in <a href="counter-culture/index.html" title="View all posts in counter-culture" rel="category tag">counter-culture</a>, <a href="../psychopaths/defense-against-psychopaths/index.html" title="View all posts in defense against psychopaths" rel="category tag">defense against psychopaths</a>, <a href="../entertainment/index.html" title="View all posts in ENTERTAINMENT" rel="category tag">ENTERTAINMENT</a>, <a href="../empaths/know-yourself/index.html" title="View all posts in know yourself" rel="category tag">know yourself</a>, <a href="../empaths/metamind/index.html" title="View all posts in metamind" rel="category tag">metamind</a>, <a href="../psychopaths/defense-against-psychopaths/propaganda/index.html" title="View all posts in propaganda" rel="category tag">propaganda</a>, <a href="../empaths/proto-psychopaths/index.html" title="View all posts in proto-psychopaths" rel="category tag">proto-psychopaths</a>, <a href="index.html" title="View all posts in SOCIETY" rel="category tag">SOCIETY</a>, <a href="../empaths/metamind/subconscious/index.html" title="View all posts in subconscious" rel="category tag">subconscious</a>, <a href="../entertainment/subconscious-olympics/index.php.html" title="View all posts in subconscious olympics" rel="category tag">subconscious olympics</a> on <a href="../../../index.html%3Fp=1348.html" title="5:26 pm" rel="bookmark"><time class="entry-date" datetime="2016-11-19T17:26:47+00:00">November 19, 2016</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="../../author/admin/index.html" title="View all posts by Matthew Newhall" rel="author">Matthew Newhall</a></span></span>.								</footer><!-- .entry-meta -->
 	</article><!-- #post -->
 		<nav id="nav-below" class="navigation" role="navigation">
 			<h3 class="assistive-text">Post navigation</h3>
@@ -616,7 +700,8 @@ body.custom-background { background-color: #e6e6e6; }
 					<input type="submit" id="searchsubmit" value="Search" />
 				</div>
 			</form></aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
-			<li><a href='../../date/2017/03.html' title='March 2017'>March 2017</a></li>
+			<li><a href='../../date/2017/04.html' title='April 2017'>April 2017</a></li>
+	<li><a href='../../date/2017/03.html' title='March 2017'>March 2017</a></li>
 	<li><a href='../../date/2017/02.html' title='February 2017'>February 2017</a></li>
 	<li><a href='../../date/2017/01.html' title='January 2017'>January 2017</a></li>
 	<li><a href='../../date/2016/12.html' title='December 2016'>December 2016</a></li>
