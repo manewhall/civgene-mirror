@@ -1,5 +1,2 @@
 User-agent: *
 Disallow: /wp-admin/
-Disallow: /wp-includes/
-
-Sitemap: https://civgene.matthewnewhall.com/sitemap.xml
