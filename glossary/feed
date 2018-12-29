@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Glossary</title>
+	<atom:link href="https://civgene.matthewnewhall.com/glossary/feed" rel="self" type="application/rss+xml" />
+	<link>https://civgene.matthewnewhall.com</link>
+	<description>Civilization is the Logic of Compassion</description>
+	<lastBuildDate>Fri, 20 Apr 2018 17:14:02 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.1</generator>
+	<item>
+		<title>By: Sorry I&#8217;m a big fat hypocrate. New theories page &#124; The Civilization Gene</title>
+		<link>https://civgene.matthewnewhall.com/glossary#comment-21</link>
+		<dc:creator><![CDATA[Sorry I&#8217;m a big fat hypocrate. New theories page &#124; The Civilization Gene]]></dc:creator>
+		<pubDate>Tue, 05 Nov 2013 02:13:38 +0000</pubDate>
+		<guid isPermaLink="false">http://civgene.matthewnewhall.com/?page_id=170#comment-21</guid>
+		<description><![CDATA[[&#8230;] Terminology [&#8230;]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] Terminology [&#8230;]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: What you talking bout willis? &#124; The Civilization Gene</title>
+		<link>https://civgene.matthewnewhall.com/glossary#comment-8</link>
+		<dc:creator><![CDATA[What you talking bout willis? &#124; The Civilization Gene]]></dc:creator>
+		<pubDate>Thu, 10 Oct 2013 21:24:18 +0000</pubDate>
+		<guid isPermaLink="false">http://civgene.matthewnewhall.com/?page_id=170#comment-8</guid>
+		<description><![CDATA[[&#8230;] Terminology [&#8230;]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] Terminology [&#8230;]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
