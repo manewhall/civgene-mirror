@@ -1,2 +1,4 @@
+# go away
 User-agent: *
-Disallow: /wp-admin/
+Disallow: /
+Disallow: /civgene.matthewnewhall.com/
