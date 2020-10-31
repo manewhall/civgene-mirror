@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -9,21 +8,21 @@
 	>
 
 <channel>
-	<title>The Civilization Gene &#187; Alliancism</title>
-	<atom:link href="http://civgene.matthewnewhall.com/archives/tag/alliancism/feed" rel="self" type="application/rss+xml" />
-	<link>http://civgene.matthewnewhall.com</link>
+	<title>Alliancism &#8211; The Civilization Gene</title>
+	<atom:link href="https://civgene.matthewnewhall.com/archives/tag/alliancism/feed" rel="self" type="application/rss+xml" />
+	<link>https://civgene.matthewnewhall.com</link>
 	<description>Civilization is the Logic of Compassion</description>
-	<lastBuildDate>Fri, 27 Jan 2017 16:06:49 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Oct 2020 04:41:20 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>http://wordpress.org/?v=3.6.1</generator>
-		<item>
+	<generator>https://wordpress.org/?v=4.7.5</generator>
+	<item>
 		<title>Alliancism</title>
-		<link>http://civgene.matthewnewhall.com/archives/1261</link>
-		<comments>http://civgene.matthewnewhall.com/archives/1261#comments</comments>
+		<link>https://civgene.matthewnewhall.com/archives/1261</link>
+		<comments>https://civgene.matthewnewhall.com/archives/1261#comments</comments>
 		<pubDate>Wed, 04 May 2016 22:35:33 +0000</pubDate>
-		<dc:creator>Matthew Newhall</dc:creator>
+		<dc:creator><![CDATA[Matthew Newhall]]></dc:creator>
 				<category><![CDATA[Alliancism]]></category>
 		<category><![CDATA[capitalism]]></category>
 		<category><![CDATA[collapse]]></category>
@@ -45,12 +44,7 @@
 
 		<guid isPermaLink="false">http://civgene.matthewnewhall.com/?p=1261</guid>
 		<description><![CDATA[There is a problem with political progress today.  There is no word but fascism to describe a  change of government into a system of always putting subsidies for corporate profit ahead of freedoms, markets, or property, controlled by one person.  A trivial point, an oligarchy as the fascist is possible here too.  While the properties [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p><a href="http://civgene.matthewnewhall.com/wp-content/uploads/2016/05/choice.jpg"><img class="size-medium wp-image-1263 aligncenter" alt="choice" src="http://civgene.matthewnewhall.com/wp-content/uploads/2016/05/choice-254x300.jpg" width="254" height="300" /></a></p>
-<p>There is a problem with political progress today.  There is no word but fascism to describe a  change of government into a system of always putting subsidies for corporate profit ahead of freedoms, markets, or property, controlled by one person.  A trivial point, an oligarchy as the fascist is possible here too.  While the properties of fascism appear on a regular but limited basis, it&#8217;s absolute properties (absolute control) may not be present.  The transition can take place at any speed. <strong> Freedoms can be lost for temporary profit, one freedom at a time.</strong></p>
-<p>Alliancism to fascism is much like socialism to <a href="http://civgene.matthewnewhall.com/archives/782">communism</a>.   In small doses both can have good short term consequences, but only for a temporary period of time.  Bringing in fractional banking in where there was none before, but cannibalizing the money supply to do it.  Growing economy of scale by ending trade disputes via hard power and eroding citizen rights to reach that goal.  Masking the tragedy of the commons with consumerism and gentrification.  Incrementally replacing debate with marketing, public relations and ultimately propaganda.   Replacing war with police action (conquest by peace).   Meant as a staged scale like socialism, alliancism is a partial implementation of fascism in a capitalist democracy (including republics) as <a title="http://civgene.matthewnewhall.com/archives/1131" href="http://civgene.matthewnewhall.com/archives/1131">it transitions</a> between the optimal psychopathic cooperative (rights AND shortcuts) to rapid simplification and localization.  Ultimately, collapse.</p>
-<p>I&#8217;m naming it after <a href="http://civgene.matthewnewhall.com/archives/745">the alliance</a>.  The closest relationship a person without a conscience (a psychopath) can have to a friendship.  Temporary and transitory in nature alliances can only exist while at each party thinks they are using the other to their ultimate advantage.  Where fascism immediately assumes all rights to it&#8217;s leader class, alliancism can erode rights one at a time.  Cashing in freedoms for temporary pricing advantages via market distortions.   This continues until the faith in currency and property are lost, and trust and investment ceases.</p>
-]]></content:encoded>
-			<wfw:commentRss>http://civgene.matthewnewhall.com/archives/1261/feed</wfw:commentRss>
+		<wfw:commentRss>https://civgene.matthewnewhall.com/archives/1261/feed</wfw:commentRss>
 		<slash:comments>1</slash:comments>
 		</item>
 	</channel>

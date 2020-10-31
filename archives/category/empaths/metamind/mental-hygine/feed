@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -9,21 +8,21 @@
 	>
 
 <channel>
-	<title>The Civilization Gene &#187; mental hygine</title>
+	<title>mental hygine &#8211; The Civilization Gene</title>
 	<atom:link href="https://civgene.matthewnewhall.com/archives/category/empaths/metamind/mental-hygine/feed" rel="self" type="application/rss+xml" />
 	<link>https://civgene.matthewnewhall.com</link>
 	<description>Civilization is the Logic of Compassion</description>
-	<lastBuildDate>Fri, 06 Oct 2017 21:32:24 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 31 Oct 2020 04:41:20 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>http://wordpress.org/?v=3.6.1</generator>
-		<item>
+	<generator>https://wordpress.org/?v=4.7.5</generator>
+	<item>
 		<title>This water is hot, I&#8217;m jumping out of the pot.</title>
 		<link>https://civgene.matthewnewhall.com/archives/1555</link>
-		<comments>https://civgene.matthewnewhall.com/archives/1555#comments</comments>
+		<comments>https://civgene.matthewnewhall.com/archives/1555#respond</comments>
 		<pubDate>Fri, 06 Oct 2017 21:32:24 +0000</pubDate>
-		<dc:creator>Matthew Newhall</dc:creator>
+		<dc:creator><![CDATA[Matthew Newhall]]></dc:creator>
 				<category><![CDATA[ASPD]]></category>
 		<category><![CDATA[conscience]]></category>
 		<category><![CDATA[defense against psychopaths]]></category>
